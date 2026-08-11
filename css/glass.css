@@ -1,0 +1,473 @@
+/*************************************************/
+/*  Valtron Forge & Fittings — Liquid Glass Theme */
+/*  Loaded after style.css — overrides only       */
+/*************************************************/
+
+:root {
+    --vf-gold: #C99700;
+    --vf-gold-deep: #A97E00;
+    --vf-gold-soft: #E5C878;
+    --vf-ink: #23262B;
+    --vf-ink-deep: #16181D;
+    --vf-glass: rgba(255, 255, 255, 0.55);
+    --vf-glass-border: rgba(255, 255, 255, 0.65);
+    --vf-shadow: 0 8px 32px rgba(28, 31, 36, 0.10);
+}
+
+/* ---------- Aurora backdrop ---------- */
+body {
+    background:
+        radial-gradient(1100px 600px at 85% -10%, rgba(201, 151, 0, 0.16), transparent 60%),
+        radial-gradient(900px 550px at -10% 25%, rgba(150, 160, 172, 0.22), transparent 60%),
+        radial-gradient(1000px 700px at 50% 115%, rgba(201, 151, 0, 0.10), transparent 65%),
+        linear-gradient(180deg, #FBFAF7 0%, #F2F0E9 100%);
+    background-attachment: fixed;
+}
+
+::selection {
+    background: rgba(201, 151, 0, 0.28);
+    color: var(--vf-ink);
+}
+
+/* Let the aurora show through tinted sections so glass cards have
+   something to blur */
+.industries,
+.testimonials {
+    background: transparent;
+}
+
+/* ---------- Frosted navbar ---------- */
+/* One glass layer on the outer bar only — a second translucent layer on
+   the inner .navbar would make the middle more opaque than the edges */
+.nav-bar {
+    background: rgba(255, 255, 255, 0.78);
+    -webkit-backdrop-filter: blur(18px) saturate(180%);
+    backdrop-filter: blur(18px) saturate(180%);
+    border-bottom: 1px solid rgba(201, 151, 0, 0.30);
+}
+
+.nav-bar .navbar {
+    background: transparent !important;
+}
+
+.nav-bar.nav-sticky {
+    box-shadow: 0 8px 30px rgba(28, 31, 36, 0.10);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--vf-gold-deep);
+}
+
+.nav-bar .dropdown-menu {
+    background: rgba(255, 255, 255, 0.78);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    backdrop-filter: blur(20px) saturate(180%);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 16px 40px rgba(28, 31, 36, 0.16);
+}
+
+.dropdown-item:hover {
+    background: rgba(201, 151, 0, 0.12);
+    color: var(--vf-gold-deep);
+}
+
+/* ---------- Buttons: glass gold ---------- */
+.btn.btn-custom,
+.cta-banner .btn-cta {
+    background: linear-gradient(135deg, #E3B23C 0%, #C99700 55%, #A97E00 100%);
+    color: #1d1405;
+    font-weight: 700;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    box-shadow: 0 8px 22px rgba(201, 151, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.55);
+}
+
+.btn.btn-custom:hover,
+.nav-bar .btn:hover,
+.cta-banner .btn-cta:hover {
+    color: #ffffff;
+    background: linear-gradient(135deg, #2A2E34 0%, #16181D 100%);
+    box-shadow: 0 10px 26px rgba(22, 24, 29, 0.35);
+    transform: translateY(-2px);
+}
+
+.carousel .btn.btn-custom:hover {
+    color: #ffffff;
+}
+
+/* ---------- Hero: cinematic banner + compact glass panel ---------- */
+.carousel,
+.carousel .carousel-item,
+.carousel .carousel-img {
+    min-height: 72vh;
+}
+
+/* Video slides fill the hero like the banner images did */
+.carousel .carousel-img video.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Replace the flat 50% black overlay with a soft scrim so the
+   banner image stays visible */
+.carousel .carousel-img::after {
+    background: linear-gradient(180deg,
+        rgba(10, 12, 16, 0.35) 0%,
+        rgba(10, 12, 16, 0.45) 55%,
+        rgba(10, 12, 16, 0.65) 100%);
+}
+
+/* Plain centered text over the video — no panel */
+.carousel .carousel-text {
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+.carousel .carousel-text h3 {
+    color: var(--vf-gold-soft);
+    font-size: 16px;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.carousel .carousel-text h1 {
+    font-size: clamp(30px, 4.6vw, 62px);
+    margin-bottom: 15px;
+    text-shadow: 0 2px 22px rgba(0, 0, 0, 0.55);
+}
+
+.carousel .carousel-text p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.92);
+    margin-bottom: 28px;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.5);
+}
+
+.carousel .owl-nav .owl-prev,
+.carousel .owl-nav .owl-next {
+    background: rgba(255, 255, 255, 0.14);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 991.98px) {
+    .carousel,
+    .carousel .carousel-item,
+    .carousel .carousel-img {
+        min-height: 60vh;
+    }
+
+    .carousel .carousel-text {
+        max-width: calc(100% - 110px);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .carousel,
+    .carousel .carousel-item,
+    .carousel .carousel-img {
+        min-height: 55vh;
+    }
+
+    .carousel .carousel-text {
+        max-width: calc(100% - 24px);
+    }
+}
+
+/* ---------- Glass cards ---------- */
+.feature-strip .feature-card,
+.testimonial-card,
+.contact-info-box,
+.price .price-item,
+.service-item,
+.team-item {
+    background: var(--vf-glass);
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
+    backdrop-filter: blur(16px) saturate(160%);
+    border: 1px solid var(--vf-glass-border);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: var(--vf-shadow);
+}
+
+.service .service-item.border {
+    background: var(--vf-glass) !important;
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
+    backdrop-filter: blur(16px) saturate(160%);
+    border: 1px solid var(--vf-glass-border) !important;
+    border-radius: 18px !important;
+    box-shadow: var(--vf-shadow) !important;
+}
+
+.service .service-item.border:hover {
+    box-shadow: 0 18px 44px rgba(28, 31, 36, 0.16) !important;
+}
+
+.feature-strip .feature-card:hover {
+    border-bottom-color: var(--vf-gold);
+}
+
+.feature-strip .feature-card .icon-circle {
+    background: linear-gradient(135deg, #E3B23C, #A97E00);
+    box-shadow: 0 6px 18px rgba(201, 151, 0, 0.35);
+}
+
+.industry-card {
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.about .about-img img {
+    border-radius: 18px;
+}
+
+/* ---------- Material pills: frosted chips ---------- */
+.material-pill {
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(12px) saturate(160%);
+    backdrop-filter: blur(12px) saturate(160%);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 14px rgba(28, 31, 36, 0.06);
+}
+
+.material-pill:hover {
+    background: linear-gradient(135deg, #E3B23C, #A97E00);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: #1d1405;
+    box-shadow: 0 8px 18px rgba(201, 151, 0, 0.35);
+}
+
+/* ---------- Facts: dark glass band ---------- */
+.facts {
+    background: rgba(22, 24, 29, 0.82);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    backdrop-filter: blur(14px) saturate(140%);
+    border-top: 1px solid rgba(201, 151, 0, 0.35);
+    border-bottom: 1px solid rgba(201, 151, 0, 0.35);
+}
+
+.facts .facts-item i {
+    color: var(--vf-gold-soft);
+}
+
+/* ---------- CTA banner: charcoal-to-gold glass ---------- */
+.cta-banner {
+    background: linear-gradient(120deg, #16181D 0%, #23262B 55%, #8F6B00 100%);
+}
+
+.cta-banner::before {
+    background: rgba(201, 151, 0, 0.14);
+}
+
+.cta-banner::after {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* ---------- Testimonials ---------- */
+.testimonial-card .quote-icon {
+    color: var(--vf-gold);
+}
+
+.testimonial-card .client .client-avatar {
+    background: linear-gradient(135deg, #E3B23C, #8F6B00);
+}
+
+/* ---------- Section headers ---------- */
+.section-header p {
+    color: var(--vf-gold-deep);
+}
+
+.section-header p::after {
+    background: linear-gradient(90deg, #E3B23C, #A97E00);
+}
+
+/* ---------- Footer: dark with gold hairline ---------- */
+.footer {
+    background:
+        radial-gradient(800px 400px at 90% 0%, rgba(201, 151, 0, 0.10), transparent 60%),
+        #16181D;
+    border-top: 1px solid rgba(201, 151, 0, 0.35);
+}
+
+/* ---------- Contact form on dark panel ---------- */
+.form-wrapper {
+    background: rgba(26, 29, 34, 0.85);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    backdrop-filter: blur(14px) saturate(140%);
+    border: 1px solid rgba(201, 151, 0, 0.35);
+    border-radius: 18px;
+    box-shadow: 0 14px 40px rgba(28, 31, 36, 0.25);
+}
+
+.contact .form-control {
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.contact .form-control:focus {
+    border-color: var(--vf-gold);
+    box-shadow: 0 0 0 3px rgba(201, 151, 0, 0.2);
+}
+
+.contact iframe {
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: var(--vf-shadow);
+}
+
+/* ---------- Misc ---------- */
+.back-to-top {
+    background: linear-gradient(135deg, #E3B23C, #A97E00);
+    box-shadow: 0 8px 22px rgba(201, 151, 0, 0.4);
+}
+
+.back-to-top:hover {
+    background: var(--vf-ink);
+}
+
+.page-header {
+    border-top: none;
+}
+
+/* Firefox / old browsers without backdrop-filter: make glass more opaque */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+    .feature-strip .feature-card,
+    .testimonial-card,
+    .contact-info-box,
+    .price .price-item,
+    .service-item,
+    .team-item,
+    .service .service-item.border,
+    .material-pill,
+    .nav-bar {
+        background: rgba(255, 255, 255, 0.96) !important;
+    }
+
+    .facts {
+        background: #1A1C21;
+    }
+}
+
+/* ---------- Flange product pages ---------- */
+.flange-hero-img {
+    background: var(--vf-glass);
+    -webkit-backdrop-filter: blur(14px) saturate(160%);
+    backdrop-filter: blur(14px) saturate(160%);
+    border: 1px solid var(--vf-glass-border);
+    border-radius: 18px;
+    padding: 14px;
+    box-shadow: var(--vf-shadow);
+}
+
+.flange-hero-img img {
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.flange-list {
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 8px 24px;
+}
+
+.flange-list li i {
+    color: var(--vf-gold);
+    margin-right: 8px;
+}
+
+/* ---------- Homepage flange showcase ---------- */
+.flange-solutions {
+    padding: 45px 0 60px 0;
+}
+
+.flange-solutions .flange-card {
+    display: block;
+    background: var(--vf-glass);
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
+    backdrop-filter: blur(16px) saturate(160%);
+    border: 1px solid var(--vf-glass-border);
+    border-radius: 18px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: var(--vf-shadow);
+    transition: all .35s ease;
+}
+
+.flange-solutions .flange-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 44px rgba(28, 31, 36, 0.16);
+}
+
+.flange-solutions .flange-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+    background: #fff;
+    padding: 12px;
+    display: block;
+}
+
+.flange-solutions .flange-card .flange-card-body {
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flange-solutions .flange-card h5 {
+    margin: 0;
+    font-weight: 700;
+    color: var(--vf-ink);
+    font-size: 17px;
+}
+
+.flange-solutions .flange-card .flange-card-body i {
+    color: var(--vf-gold);
+    transition: transform .3s ease;
+}
+
+.flange-solutions .flange-card:hover .flange-card-body i {
+    transform: translateX(5px);
+}
+
+/* ============ Scroll reveal (home page) ============ */
+.reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity .65s ease-out, transform .65s ease-out;
+    will-change: opacity, transform;
+}
+
+.reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
+
+/* About-section YouTube embed fills its framed box */
+#aboutYtVideo {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+}
