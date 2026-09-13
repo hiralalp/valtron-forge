@@ -1,0 +1,4 @@
+node_modules/
+_not-deployed/browser-checks/
+test-results/
+playwright-report/

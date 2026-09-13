@@ -1,0 +1,134 @@
+# Valtron Forge & Fittings Website
+
+Static HTML website with a small Node-based generation layer. No frontend framework, server or database is required to browse the pages. The local implementation includes 23 flange product/range pages and 43 individual material, standard, facing and selection guides. It is not the completed 81-entry catalogue or a production deployment.
+
+Non-ferrous material discovery was removed at the user's request on 13 September 2026. Titanium, Copper, Copper Nickel and Aluminium no longer appear in homepage material groups, product-navigation menus, the materials hub or related-reference links. The homepage now presents three material groups with 12 links. The four existing reference URLs remain available for external links, so the total retained reference count stays 43; only 39 are promoted through catalogue discovery. Technical text and retained page content are not deleted.
+
+## Preview and Checks
+
+Unused-media cleanup on 13 September 2026 removed 87 unreferenced images/videos (29.33 MiB) from the public media folders. Active and retained legacy pages, CSS/JS references, build scripts, source media and documentation were checked before deletion. A checksum-verified recovery archive and original audit manifest are stored under `_not-deployed/asset-audit/`, outside deployment. Library code, licences, private review files and original generation inputs were preserved.
+
+Run `node scripts/audit-assets.mjs` for a non-destructive media audit. It checks filenames and filename stems against public text files, generation scripts and documentation, retaining ambiguous matches conservatively. It writes `_not-deployed/asset-audit/report.json` but never deletes files; inspect dynamic references and preserve a verified recovery copy before any future removal.
+
+Open [index.html](index.html), [flanges.html](flanges.html) or [contact.html](contact.html) directly in a browser. An internet connection is required for Google Fonts, Font Awesome and the retained legacy CDN dependencies. The quote form prepares a WhatsApp message; the visitor sends it in WhatsApp. It does not upload drawings or claim that an enquiry has already been sent.
+
+For video playback in VS Code's integrated browser, use an HTTP preview instead of `file:///`. The integrated browser can reject local video sources with a format error even when the same files decode over HTTP. For a local-only preview, run `npx --yes http-server . -a 127.0.0.1 -p 8087 -c-1` and open `http://127.0.0.1:8087/index.html`. This serves the workspace for local testing only; do not expose this server publicly or use it as the production deployment.
+
+Use Node.js 20.19 or later from the repository root:
+
+```powershell
+npm ci
+npm run build
+npm test
+npx playwright install chromium
+npm run test:browser
+```
+
+The 16 static tests check local links/assets, shared product scope, inventory counts, metadata, fitting quote paths, sitemap contents, repeat-build stability, reachability of product/reference pages, all 14 product additions, the long-form homepage, the expanded About profile, industry-specific Services content, and navigation/table coverage on all 89 active product/detail/hub pages. Browser checks cover every new product and representative existing pages at 1440px, 390px and 320px, images, search/reset, product menus, keyboard/outside-click dismissal, mobile table scrolling, homepage FAQs, About facility links, Services industry links, quote prefill, native validation and no-JavaScript access. All 21 original diagram assets are decoded and checked for nonblank pixels. Browser tests intercept the WhatsApp handoff; no real enquiry is sent. Screenshots are generated under `_not-deployed/browser-checks/` and are not committed.
+
+## About
+
+`companyPage()` in [scripts/templates.mjs](scripts/templates.mjs) builds [about.html](about.html): the company introduction, flange range, working principles, catalogue-backed facility photographs, order-specific quality requirements, enquiry steps and Mumbai contact details. Scoped `.vf-about-*` rules in [css/catalogue.css](css/catalogue.css) provide the responsive layouts. Facility images reuse native-size gallery crops. Do not add unverified founding dates, capacity figures, customer counts or certification claims; inspection and approval requirements are explicitly agreed per order.
+
+The About introduction uses [img/flange banner01.jpg](img/flange%20banner01.jpg), the third homepage hero image, without cropping. Company copy is adapted from page 2 of [Valtron Forge_0222.pdf](Valtron%20Forge_0222.pdf), visually checked on 13 September 2026: founder Jitendra Kumar, sister concern Rishabh Forge Fittings & Mfg. Co., stainless steel expertise, vision, innovation, efficiency, growth and customer-centric support. The catalogue's history of over 35 years is attributed to Rishabh, not to Valtron. No Valtron founding date or certification is inferred; delivery remains order-specific. Existing technical, facility and contact sections remain available.
+
+The forging reel remains on the homepage only. It uses the requested [video/banner-video-3.mp4](video/banner-video-3.mp4) (1920 x 1080, approximately 10.42 seconds) with the existing [video/banner-video-3.webm](video/banner-video-3.webm) fallback. It starts at 00:00, autoplays muted when sufficiently visible, and loops back to the beginning. It pauses offscreen or in a hidden tab and resumes automatically on return unless the visitor manually paused it. Native controls provide playback and fullscreen. Reduced-motion visitors get a paused opening frame; native controls remain available without JavaScript. The player uses a 16:9 frame at desktop and mobile sizes, with [img/banner-video-3-poster.jpg](img/banner-video-3-poster.jpg) extracted from the MP4's first frame. No old 15-second offset applies to this shorter clip.
+
+`scripts/prepare-reel.mjs` is retained only for the previous portrait footage from `_not-deployed/MicrosoftTeams-video.mp4`; its outputs are no longer used by the homepage. Ordinary builds use the replacement video's prepared assets without FFmpeg. Browser tests verify the replacement source, landscape dimensions, duration, playback, looping from zero, pause/resume, offscreen pause, reduced motion and no-JavaScript behaviour at desktop/mobile sizes.
+
+## Contact Map
+
+The contact page includes a static world map below the enquiry form and sidebar, with a Mumbai head-office marker and address-based Google Maps links. The marker uses approximate city coordinates (18.96 N, 72.82 E), not a geocoded building location. The full existing postal address is displayed below the map. No map embed, API key or runtime map-service request is required; the map and links work without JavaScript.
+
+[img/contact-world-map.png](img/contact-world-map.png) is rendered from Natural Earth's public-domain 1:110m land polygons, downloaded on 13 September 2026 from `https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_land.geojson` into `_not-deployed/contact-map-land.geojson`. Regenerate with `node scripts/render-contact-map.mjs` after downloading that source. The renderer uses the existing Playwright dependency and an equirectangular projection; the marker percentages in [css/catalogue.css](css/catalogue.css) follow the same projection. Ordinary builds use the prepared image. The deployment ZIP has not been rebuilt.
+
+## Services
+
+[service.html](service.html) uses the dedicated [scripts/services.mjs](scripts/services.mjs) renderer, independently of the About page. It retains the nine sectors and existing images from the previous website's Services page: Oil & Gas, Petrochemical, Chemical, Sugar, Marine, Aerospace, LNG, Energy & Power and Nuclear. Each section includes a description, typical applications, enquiry requirements and a relevant flange guide. The responsive directory and three project-support blocks use scoped `.vf-service-*` rules in [css/catalogue.css](css/catalogue.css). Sector images are illustrative, not evidence of completed projects or approvals; aerospace and nuclear supply remains subject to project-specific qualification. Rebuild the deployment ZIP after public page changes; older archives do not update automatically.
+
+## Factory Gallery
+
+[gallery.html](gallery.html) is generated by [scripts/gallery.mjs](scripts/gallery.mjs), with 12 photographs from page 3 of [Valtron Forge_0222.pdf](Valtron%20Forge_0222.pdf). The PDF contains one flattened 1240 x 1752 JPEG on that page, not separate high-resolution photographs. [scripts/extract-gallery.ps1](scripts/extract-gallery.ps1) uses Poppler's `pdfimages` and Windows System.Drawing to extract that original stream and save native-pixel PNG crops without JPEG recompression, sharpening or upscaling. Run it from PowerShell only when regenerating the approved source crops; ordinary builds use the committed image files. The smallest crop is 172 x 227 and the largest is 704 x 400. Original camera files are needed for genuinely higher-resolution replacements.
+
+[css/gallery.css](css/gallery.css) limits display sizes to the source resolution; [js/gallery.js](js/gallery.js) provides a native-dialog viewer with previous/next, keyboard navigation, Escape, focus return and original-image links. Without JavaScript, each thumbnail opens its full-size PNG. Browser tests cover all twelve images and viewer interactions at desktop/mobile sizes. Public assets include `img/gallery/`; keep the extraction preview and original page image under `_not-deployed/` out of deployment. The site now contains 119 root HTML pages and 77 generated sitemap entries.
+
+## Product Information
+
+All 23 flange product pages, 43 reference guides, 17 retained fitting details and six catalogue hubs have an Explore Products navigator linking the full active flange and fitting catalogue. Native disclosure menus work without JavaScript; progressive enhancement adds Escape and outside-click dismissal. Only the three approved product categories are exposed.
+
+Each of these 89 pages has three supplementary tables: specification/selection data, related-option comparisons, and inspection/documentation/delivery requirements. Existing tables and legacy detail content are preserved. Material pages include designation distinctions, facing pages have joint-specific gasket and mating requirements, standards pages explain scope and ordering designations, and fitting tables distinguish geometry and end connections. These are original selection references, not verified numerical dimension charts, pressure-temperature ratings, substitution approvals or stock declarations. Obtain and approve project-specific numerical data before publishing it.
+
+`productNavigation()` and `productInformation()` in [scripts/templates.mjs](scripts/templates.mjs) own the shared additions. The build inserts/replaces these within retained fitting content boundaries without rewriting the original content. Removed-category legacy URLs and composition resources are not expanded. A pre-existing 3px list overflow on the forged-elbow page at 320px remains outside this change; the new navigator and scrollable table containers stay within their layout.
+
+## Homepage
+
+Hero copy is restored from https://valtronforge.com/ (checked 13 September 2026): "Welcome to / Valtron Forge & Fittings", "Quality you can trust / Exporter & Supplier of Industrial Piping Solutions", and "Trusted for excellence / Global Exporter of Flanges", with their original descriptions. The old fasteners slide is omitted to preserve the agreed product scope. The text changes with each background; the grid reserves space for the longest message to keep the hero height stable. These are existing company statements, not independently verified manufacturing/export claims.
+
+Homepage-only typography uses Manrope for the hero heading and body text, with Oswald section headings, via Google Fonts; product/reference pages keep their existing type. [css/home.css](css/home.css) controls this presentation and [js/home.js](js/home.js) adds one-time intersection reveals, staggered cards, a reading-progress line, active section links and subtle hero parallax. Content is never hidden while waiting for JavaScript or an observer. Reduced-motion preferences cancel reveal animations and disable decorative scroll motion; the existing video retains its separate playback controls.
+
+The hero rotates through four backgrounds: the forging video (`video/banner-forging.webm` with MP4 fallback) stays visible for twenty-five seconds, followed by eight seconds each for the supplied metalworking video (`video/banner-new.webm` with MP4 fallback), the flange collection [img/flange banner01.jpg](img/flange%20banner01.jpg), and industrial piping [img/flange banner02.jpg](img/flange%20banner02.jpg). Slide four reuses the original piping-solutions copy. The headline and description change with each slide; the enquiry links stay fixed. The first-slide delay is set in `schedule()` in [js/catalogue.js](js/catalogue.js); `data-slide-interval="8000"` in the homepage template controls the other slides. Arrow and dot controls select slides; the slideshow pause control stops rotation and the active video, while the separate video control operates the current clip. Manual selection or keyboard focus on content/navigation stops automatic rotation until resumed. Hover temporarily suspends rotation; offscreen/hidden tabs also pause video. Only the active video plays. Reduced-motion visitors start with no automatic playback or rotation; without JavaScript the first poster remains. A failed video keeps its poster without stopping slide navigation.
+
+Regenerate the first slide with `node scripts/prepare-banner.mjs --first`. It reads the unchanged [video/forgingvideo.mp4](video/forgingvideo.mp4), extracts only original 00:05 through 00:30, and produces silent 25-second 1280 x 720 MP4/WebM derivatives plus [img/banner-forging-poster.jpg](img/banner-forging-poster.jpg). Playback time zero in these derivatives corresponds to 00:05 in the original, so every slide return and loop stays within the requested segment. The original source and retired banner-video-3 clips are not deployment inputs.
+
+Run `node scripts/prepare-banner.mjs` to regenerate the second clip from `_not-deployed/bannernew.mp4` using the installed `ffmpeg-static` binary. It retains the original 1280 x 720 resolution, copies the video stream to a silent faststart MP4, encodes a WebM fallback and extracts [img/banner-new-poster.jpg](img/banner-new-poster.jpg). The original file is unchanged. The supplied footage contains a Thyssenkrupp watermark: it is illustrative third-party footage, not evidence of a Valtron facility, and permission to publish must be confirmed before deployment. Do not remove the watermark. Browser tests cover automatic switching, both video streams, image display, wraparound, controls, inactive-video pause, reduced motion and no-JavaScript fallback at 1440px, 390px and 320px.
+
+The homepage contains 19 sections: the hero, forging reel, six core flange types, About Valtron, three equipment/measurement flange types, material families, industrial applications, standards, facing comparisons, quality/inspection requirements, drawing-based enquiries, order/delivery planning, technical resources, supporting fittings, international markets, testimonials, third-party inspection, FAQs and the closing enquiry band. The forging section sits immediately below the hero, before the section navigation, and uses `forgingReel()` in the shared template with accessible playback behaviour. The original nine products retain image cards; a compact range list links directly to all 14 additions. All 23 have cards in the searchable flange catalogue. Section links and native FAQ disclosures work without JavaScript. Industry photographs are retained site assets and are not presented as Valtron-owned facilities or customer projects. Unverified customer counts are not restored.
+
+`#home-markets` appears immediately above testimonials with the 12 user-approved market candidates: United States, United Arab Emirates, Saudi Arabia, Germany, United Kingdom, Italy, Netherlands, Singapore, Qatar, Oman, Australia and Canada. It uses the heading "International Markets" and enquiry-specific supply/shipping qualifications, not a ranked trade-data claim or a record of completed Valtron exports. Flags are local PNGs downloaded from `https://flagcdn.com/w160/{code}.png` on 13 September 2026, stored as `img/flag-{code}.png`; their empty alt text avoids repeating the adjacent country names. Confirm actual service coverage and applicable flag-use requirements before publication.
+
+At the user's request, `#home-testimonials` and `#home-inspection` restore content from https://valtronforge.com/ (checked 13 September 2026), immediately before `#home-faq`. Three quotes retain Rajesh Kulkarni, Ahmed Al-Sayed and Suresh Menon's names, roles and wording (punctuation normalised to ASCII). No new testimonials, ratings or review structured data were invented. The six existing `img/logo-1.jpg` through `img/logo-6.jpg` images identify SGS, Velosi, NPCIL, Bureau Veritas, DNV and Tata Projects; the old site's source references all six. The section qualifies acceptance and inspection scope per order and does not claim company certification or endorsement. The quotes' authenticity and consent, current inspection arrangements and logo permissions remain unverified and must be confirmed before publishing. Existing logo artwork is unchanged, including the Bureau Veritas certification wording. JavaScript progressively enhances the responsive grids into continuous right-to-left tracks (45 seconds for testimonials, 32 seconds for logos). Visual copies are inert and hidden from assistive technology. Motion pauses on hover, keyboard focus, offscreen and hidden tabs; each section's pause control restores the complete static grid. Reduced-motion preferences and no-JavaScript browsing retain static grids. Browser tests cover direction, hover pause, pause/resume, duplicate accessibility and fallbacks at 1440px, 390px and 320px. Rebuild the deployment ZIP to include these page changes.
+
+## Editing
+
+The Plant Maintenance card uses [img/plant-maintenance.jpg](img/plant-maintenance.jpg), a stock photograph of metal grinding from [Unsplash image source](https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1000&q=85), downloaded 12 September 2026. It illustrates industrial work, not Valtron personnel or a completed project. Review usage under the [Unsplash license](https://unsplash.com/license) before production release.
+
+| Source | Responsibility |
+| --- | --- |
+| [scripts/catalogue.mjs](scripts/catalogue.mjs) | 23 product/range records, including 14 additionalProducts, fitting links and material/standard/facing references |
+| [scripts/references.mjs](scripts/references.mjs) | 16 material guides, 18 standards guides, six facing guides and three selection guides |
+| [scripts/render-reference-images.mjs](scripts/render-reference-images.mjs) | Original bitmap references for six facings, operational line blanks and 14 product additions |
+| [scripts/templates.mjs](scripts/templates.mjs) | Shared navigation/footer and rebuilt page layouts |
+| [scripts/build.mjs](scripts/build.mjs) | Static generation, legacy discovery updates, sitemap and inventory output |
+| [scripts/inventory.mjs](scripts/inventory.mjs) | All 81 planned flange entries, implementation state and review requirements |
+| [css/catalogue.css](css/catalogue.css) | Scoped new presentation and responsive shared navigation |
+| [js/catalogue.js](js/catalogue.js) | Progressive navigation, catalogue filtering and WhatsApp enquiry preparation |
+
+Run the build after source changes. The 77 generated pages comprise the original 19 rebuilt pages, 43 individual reference guides, 14 product additions and the factory gallery. Edit their source templates/data, not the generated HTML. For the other 42 legacy pages, main content stays in the HTML; shared navigation/footer markers and product-discovery regions are build-owned. Do not remove the shared-region comment markers.
+
+The 21 PNG references under `img/flanges/reference/` are original, non-dimensional illustrations, not supplier photos or manufacturing drawings. The lip-type reference depicts required design inputs, not an unverified lip profile. All new product pages provide explicit captions and full-size image links. These are generated public assets stored in the workspace, so the normal build does not need Chromium. After changing the illustration source, regenerate them with the following command (Playwright Chromium must already be installed):
+
+```powershell
+npm run images:references
+```
+
+Material and most standard guides use existing, explicitly qualified flange-geometry images. These do not claim to photograph a particular alloy or a certified standard-specific product. Reference-page quote links prefill the relevant field; users can edit it before continuing to WhatsApp.
+
+## Scope and Review
+
+The intended visual emphasis is approximately 90% flanges and 10% combined buttweld/forged fittings, not a ratio of page counts. All 58 original URLs remain accessible; removed categories are no longer linked in public discovery. No redirects or new legacy `noindex` rules have been introduced.
+
+[catalogue-inventory.json](catalogue-inventory.json) tracks 70 implemented flange entries, 10 deferred product/construction entries and one retained, unverified calculator. There are 119 root public HTML pages in total, preserving all original URLs. The 14 new entries cover plate, reducing, Weldo, Nipo, forged, loose, square, expander, high-hub blind, spectacle blind, spade, ring spacer, lip-type and puddle requirements. Lip-type is implemented as a drawing-led enquiry page, not a claim of a verified design. The inventory is not a stock list. The full target and content distinctions remain in [FLANGE-CATALOGUE-PLAN.md](FLANGE-CATALOGUE-PLAN.md).
+
+Before production approval:
+
+- Confirm Valtron's offered products, material/standard/facing combinations, technical data, inspection claims and image rights. Reference checklists are not dimensional tables or design approval.
+- Review the 14 new product pages and diagrams against the intended offering. Obtain approved photographs where required; the high-hub profile is currently a concept diagram. Lip-type still needs a verified drawing/photo before a product-geometry image can be assigned. Supplier-review downloads remain unapproved and unused.
+- The 10 deferred ranges are large-diameter, custom/drawing-based, integral, swivel-ring, anchor, split, SAE hydraulic, compact, vacuum and sanitary flanges. Their dedicated pages remain outside this implementation.
+- Review retained fitting content and imagery. Known mismatches remain on short/long 45-degree buttweld elbows, forged elbows and reducing inserts. Their legacy main content was not silently replaced with unlicensed supplier material.
+- Confirm legacy calculator formulas and units before promoting it. It remains accessible only as a retained URL, not a redesigned flange calculator.
+- Review the 43 implemented reference guides and original schematics against the client's intended offering and project standards. They contain selection guidance, not reproduced standards tables or approved product dimensions. Only family filtering is currently enabled; unverified combination filters have not been invented.
+- Review the public domain, contact details and hosting configuration before release. Email form delivery, uploaded drawings and a complete legacy SEO/accessibility audit are outside this phase.
+
+## Deployment Boundary
+
+To build a Hostinger upload ZIP on Windows, run `& .\scripts\package-hostinger.ps1` from PowerShell. The script rebuilds the site, runs static tests, checks packaged HTML dependencies with case-sensitive paths, and verifies every archived file by SHA256. Timestamped ZIPs, manifests and checksum files are written to `_not-deployed/deployment/`. Only the ZIP is uploaded; source scripts, dependencies, internal notes, preview files and unused videos are excluded. Library licence files are preserved.
+
+In Hostinger hPanel, open the target site's File Manager and back up the existing `public_html` contents first. Upload the ZIP into `public_html` and extract it there: `index.html` must be directly inside `public_html`, not a nested project folder. The ZIP has no parent directory and does not overwrite server configuration such as `.htaccess`. If an old default `index.php` takes precedence, back it up and rename it. Remove the uploaded ZIP after extraction, enable SSL, and check Home, Gallery, the catalogue download, hero video and Contact on the public domain. This packaging step does not upload or deploy anything. The current enquiry flow uses WhatsApp; legacy PHP mail delivery is not configured or tested by the package process.
+
+The shared navigation and footer download the existing [Valtron Forge_0222.pdf](Valtron%20Forge_0222.pdf). Include this root PDF in the public deployment alongside the assets below. Its content is unchanged and should be reviewed for alignment with the current flange-focused website before release.
+
+Do not upload or serve the repository root wholesale. `_not-deployed/` is a review workspace, not a technical access restriction. It contains supplier imagery with unresolved usage rights, test screenshots and internal review records.
+
+For a reviewed release, upload only the root public HTML pages, [sitemap.xml](sitemap.xml), the required public `css/`, `js/`, `img/`, `lib/` and `mail/` assets, the hero files `video/banner-forging.webm`, `video/banner-forging.mp4`, `video/banner-new.webm` and `video/banner-new.mp4`, and the homepage reel files `video/banner-video-3.mp4` and `video/banner-video-3.webm`. Include `img/banner-video-3-poster.jpg`, `img/banner-forging-poster.jpg`, `img/banner-new-poster.jpg`, `img/flange banner01.jpg` and `img/flange banner02.jpg` with the images. Do not upload unrelated contents of the video directory. Exclude `_not-deployed/`, `node_modules/`, `scripts/`, `.git/`, package files, review documents and the internal catalogue inventory. No new supplier-review downloads are referenced by public HTML. Existing public imagery still requires the client's provenance approval.
+
+The sitemap lists the 77 generated canonical pages only. Retained fitting detail and technical pages remain crawlable through ordinary links; their metadata has not been reworked yet. Deferred pages, removed categories, filter query permutations and the unverified calculator are not added to the sitemap. This does not change the indexing policy of their existing URLs.
