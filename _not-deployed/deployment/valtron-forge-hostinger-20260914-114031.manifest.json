@@ -1,0 +1,1612 @@
+[
+    {
+        "path":  "about.html",
+        "bytes":  17103,
+        "sha256":  "769def31cad5cdbc8d9aa7d98776076627fe74ed5b16a206cb022a0da02dc645"
+    },
+    {
+        "path":  "alloy-20-flanges.html",
+        "bytes":  19265,
+        "sha256":  "daab1938d1a278e2019bad228289e43a537dd0a3221623f500988373b4c61078"
+    },
+    {
+        "path":  "alloy-steel-flanges.html",
+        "bytes":  20039,
+        "sha256":  "656857642f6412634b7aae9a619af5ebbc45f8273c1104bf51dadacd406f24e8"
+    },
+    {
+        "path":  "aluminium-flanges.html",
+        "bytes":  19182,
+        "sha256":  "770df96c92da2a9321aa318900df9e309a2702cc3370c4ed37166d282ceb414f"
+    },
+    {
+        "path":  "api-6a-flanges.html",
+        "bytes":  20112,
+        "sha256":  "6c68dddf20457649e18f42358fd6cbe65cf81c471f2bfd7b9736c20416707592"
+    },
+    {
+        "path":  "as-2129-flanges.html",
+        "bytes":  20314,
+        "sha256":  "6fbc82f1e80017148e196588ba70d38783b4734524cfac9196b8f956b58b29f2"
+    },
+    {
+        "path":  "asme-b16-36-flanges.html",
+        "bytes":  20570,
+        "sha256":  "cefd775e4dee622b156c4eea637266b71dee547b0da26d7a03056cd0f77247b9"
+    },
+    {
+        "path":  "asme-b16-47-flanges.html",
+        "bytes":  20380,
+        "sha256":  "1993d02c7ea15c5caaee911980687e04595cee60ecebd3eecf205dc037431f98"
+    },
+    {
+        "path":  "asme-b16-47-series-a-flanges.html",
+        "bytes":  20615,
+        "sha256":  "b927ad7812f139d714fc3e5516d038caa33ffbaf659dfb2bd7d93198265a292e"
+    },
+    {
+        "path":  "asme-b16-47-series-b-flanges.html",
+        "bytes":  20574,
+        "sha256":  "7fdb1c1134c613c259de5042a2acdd136aafc793e630ff2eeff3974a5a809e7b"
+    },
+    {
+        "path":  "asme-b16-48-line-blanks.html",
+        "bytes":  20539,
+        "sha256":  "79b439740a6615989564144ba16e67734632741485dcac59d0549fbb4a060eec"
+    },
+    {
+        "path":  "asme-b16-5-flanges.html",
+        "bytes":  20602,
+        "sha256":  "503faf21be0343c4ea19ddd5be85c91fe9084607280c43e4fb57b129b1dea8cd"
+    },
+    {
+        "path":  "awwa-c207-flanges.html",
+        "bytes":  20474,
+        "sha256":  "c65aca01a7520ebd2ad5250bf050b5685098ad429405307e532802bfc9faa7d2"
+    },
+    {
+        "path":  "barrel-nipple.html",
+        "bytes":  18408,
+        "sha256":  "4e3a66a9a15b65f11d94d99046abf2953121450ed7dc99bb5137fa53e5810a06"
+    },
+    {
+        "path":  "beam-channels.html",
+        "bytes":  22327,
+        "sha256":  "9f12acc2141746f98d6e3add3b1fd14d7928e104824bad62124f4c112c9ada30"
+    },
+    {
+        "path":  "blind-flanges.html",
+        "bytes":  22677,
+        "sha256":  "fede5e48fae0795d74be16a3826c17e378ba6e89c433db2beafdd0590c7296ce"
+    },
+    {
+        "path":  "bs-10-flanges.html",
+        "bytes":  20306,
+        "sha256":  "c45fef9c8c11d23a2a0a954c7c094de3737aece41bbad8bc291e670766fd59ea"
+    },
+    {
+        "path":  "bs-4504-flanges.html",
+        "bytes":  20432,
+        "sha256":  "a9781cf52f3ae2ebc422c474ee89f1fadad128ecc25d5733274ea7a85b4b9d28"
+    },
+    {
+        "path":  "buttweld-180.html",
+        "bytes":  30147,
+        "sha256":  "6a22df51cf5cc791f002d8740dbe164d41f6561da11cd1496bf146ebdf179fb6"
+    },
+    {
+        "path":  "buttweld-cap.html",
+        "bytes":  29951,
+        "sha256":  "a0dfdc7a0f4e3fe2a90c3232c01c4ccfe95d3af421ab49329295a9bcb74dcf09"
+    },
+    {
+        "path":  "buttweld-composition.html",
+        "bytes":  18074,
+        "sha256":  "850f3f35c66eebb993279cd0abca78adcefc2096af6d1cc2ed04ce5fea59924f"
+    },
+    {
+        "path":  "buttweld-concentric-reducer.html",
+        "bytes":  30062,
+        "sha256":  "66bc9f204c2dba5c1e50333a7eb117def598a5a6649275e6e81b4bbe210f3acc"
+    },
+    {
+        "path":  "buttweld-eccentric-reducer.html",
+        "bytes":  30020,
+        "sha256":  "d4a4e83970582cdf2b69a77677efe00c72c5504175ed5fa104bd45a5d114708a"
+    },
+    {
+        "path":  "buttweld-equal-tee.html",
+        "bytes":  29973,
+        "sha256":  "ec989e7f6b54a2ecbbfd8112da3e21b12882155e579744c5701b80bd26fa2880"
+    },
+    {
+        "path":  "buttweld-fittings.html",
+        "bytes":  18729,
+        "sha256":  "9d1046d044b2cfc70b1b9d91fc45af88ccaf35c4be10d8a03d8eabf51682dce9"
+    },
+    {
+        "path":  "buttweld-long-45.html",
+        "bytes":  30144,
+        "sha256":  "065eab843fdecb04a8978ef7e2c680c8ccd8b9ad242c3f26108277e3bb1aac0c"
+    },
+    {
+        "path":  "buttweld-long-90.html",
+        "bytes":  30131,
+        "sha256":  "67a259c94cbb65024d9e1f2a9a5b1270c951ad7bcac3fe59fbb86cbb38870b72"
+    },
+    {
+        "path":  "buttweld-reducing-tee.html",
+        "bytes":  29991,
+        "sha256":  "6636cc83860781287d9ec33d53a34672b3da51196f75ad78dce6d2207cf455a7"
+    },
+    {
+        "path":  "buttweld-short-45.html",
+        "bytes":  30223,
+        "sha256":  "3949d930f1f536b9fc84a83dc832b745ceb78df023e355f15baa0155588fbcac"
+    },
+    {
+        "path":  "buttweld-short-90.html",
+        "bytes":  30122,
+        "sha256":  "f7b2983b45fbf504eef72f099e4ab23010e6442ee821810dd4dd4f95e729aaf8"
+    },
+    {
+        "path":  "buttweld-stub-end.html",
+        "bytes":  30025,
+        "sha256":  "38a91e4b319530a3633ac28627c3e311ea615c05a4305c3f5d56d44dac46224c"
+    },
+    {
+        "path":  "carbon-steel-flanges.html",
+        "bytes":  19858,
+        "sha256":  "d217cb0841effe001933f28dfa141e4b8914ccc6275f0262e7d01d4da4248ea5"
+    },
+    {
+        "path":  "chemical-composition.html",
+        "bytes":  47846,
+        "sha256":  "16a44af366ebf08280a302c044709d333cb2df8095508ca0e5f5fec5491b6c71"
+    },
+    {
+        "path":  "companion-flanges.html",
+        "bytes":  22711,
+        "sha256":  "a5189e82e2f3f9852c5ad87b6b9c6bbe94218bb9e2519039d27c223ed9bf9342"
+    },
+    {
+        "path":  "contact.html",
+        "bytes":  10438,
+        "sha256":  "0c0cbec7b4c415a03382ead0cb7625c23f61d7ea08b86be4feb68f34948c1224"
+    },
+    {
+        "path":  "copper-flanges.html",
+        "bytes":  18526,
+        "sha256":  "df56493e8e80f8558e0c7a0a70b733ac4591797b2e5886484d5f96a5a55a5be8"
+    },
+    {
+        "path":  "copper-nickel-flanges.html",
+        "bytes":  19011,
+        "sha256":  "7fd97e5c2de51edd9bdfdc595af7b7a23a46feedbb4128bf8a9a21a428d4a64c"
+    },
+    {
+        "path":  "css/catalogue.css",
+        "bytes":  41855,
+        "sha256":  "de5e79d4ab8616c07ed995ca9aaf606a0eb0aa7f573cdddc99b9d1c07c5ec478"
+    },
+    {
+        "path":  "css/gallery.css",
+        "bytes":  5086,
+        "sha256":  "736d41a713dddc3687bd6851c75a18bfc6613da766aec4fb267faa6d5a33e208"
+    },
+    {
+        "path":  "css/glass.css",
+        "bytes":  11896,
+        "sha256":  "1d5a2f91756580ed361e1e3cdf104533cf4104e1683a8e4d75bebe2b655fc549"
+    },
+    {
+        "path":  "css/home.css",
+        "bytes":  10382,
+        "sha256":  "2b26bcc5c28dee4501a1eca6f02d6e1755164261caf4b3fd2b4d68f32580caac"
+    },
+    {
+        "path":  "css/style.css",
+        "bytes":  60251,
+        "sha256":  "bb06ed654205c1e3e9385cc779656d4ce745f39774e52b872b2e291d7a697f52"
+    },
+    {
+        "path":  "din-flanges.html",
+        "bytes":  20272,
+        "sha256":  "0f6ab3012e555e4c36dc6d11c5728d58cf26ec198f017945d28840e4d761acd4"
+    },
+    {
+        "path":  "duplex-steel-flanges.html",
+        "bytes":  19612,
+        "sha256":  "d9528f7ff19e220dcf1d5df740ef4c1b7eaa6c8abd606b4338556463b38f8343"
+    },
+    {
+        "path":  "en-1092-1-flanges.html",
+        "bytes":  20266,
+        "sha256":  "d1417737a0ea22f7089232e270d18463cb6ff0dda754de89f25eeca84dc64fe9"
+    },
+    {
+        "path":  "expander-flanges.html",
+        "bytes":  23827,
+        "sha256":  "f083ff884e07219fa9a1db7cb2d9b79ffa9dac94f98af5f5ab8aede58b12f947"
+    },
+    {
+        "path":  "fastners.html",
+        "bytes":  33117,
+        "sha256":  "d5b9f2d8f00117a1d4ff8b2c191428e648e25b622cc941f2f80ea89417635fc4"
+    },
+    {
+        "path":  "flange-facing-finish.html",
+        "bytes":  21183,
+        "sha256":  "a602c7c5f1d5abeb3908c81a148da3d3f6cc254ccd1875bc1f81ce3cb4692ea3"
+    },
+    {
+        "path":  "flange-materials.html",
+        "bytes":  23565,
+        "sha256":  "0ac6c2daf61c6408d879898d47dd54f9419ca91659e02c6a1245cad55408130f"
+    },
+    {
+        "path":  "flange-material-selection.html",
+        "bytes":  22099,
+        "sha256":  "d7c712f1cbfc3cb0b7c88111f4fa6fb24bc2a0dc9dcf331126e3e8ae8fcba99c"
+    },
+    {
+        "path":  "flange-pressure-ratings.html",
+        "bytes":  21976,
+        "sha256":  "2a9e130ed3c662fc37f03ae56db1f88bab95f8ea9fbd42276eb7bb86987b4dda"
+    },
+    {
+        "path":  "flanges.html",
+        "bytes":  38446,
+        "sha256":  "711f4b514c8e7ee13e9d967363373fdeebdd11a22d39b78f8c486a7a2c89f502"
+    },
+    {
+        "path":  "flange-standards.html",
+        "bytes":  26164,
+        "sha256":  "276e2cc310280b8fc996a452b08f6086d1a114877e783f555cc06b937283bade"
+    },
+    {
+        "path":  "flange-types-guide.html",
+        "bytes":  24631,
+        "sha256":  "9d0b7086f4a80ee54bc7fe81e7f91b3de7131afbd18fcff0755171ab626a34ff"
+    },
+    {
+        "path":  "flat-face-flanges.html",
+        "bytes":  20931,
+        "sha256":  "fab73fc2e845995236329e471f1bb68f1a4eb3a807807692f01ebb56a73c917f"
+    },
+    {
+        "path":  "forged.html",
+        "bytes":  17798,
+        "sha256":  "cd79c830c158fb4c3ee92b7222b18fc253a4e60686fd794d91a0985213ee93f3"
+    },
+    {
+        "path":  "forged-caps-plugs.html",
+        "bytes":  29209,
+        "sha256":  "41e64bb8b6f17e0fa117f5625cae754ff668f9663472e51dd77d82b2ff91565f"
+    },
+    {
+        "path":  "forged-composition.html",
+        "bytes":  21527,
+        "sha256":  "c46ffb1e05d46202cff056edd2aecb3b6b69069d7ae7d297a996eb5ced60d5c5"
+    },
+    {
+        "path":  "forged-coupling.html",
+        "bytes":  29176,
+        "sha256":  "7c549c40778a8a7cab34be8e6f07a78ee3570bc22c089af0dae3f8d08002debf"
+    },
+    {
+        "path":  "forged-elbow.html",
+        "bytes":  29188,
+        "sha256":  "e16d0e9247633e402e1821d8df11584ed2deb1f4ead4f189635ae78f75a31a06"
+    },
+    {
+        "path":  "forged-flanges.html",
+        "bytes":  23787,
+        "sha256":  "5aa9578cb6ce21c01117657e4d0f6d05f1ee75e9008a064a32d355cf13b02bd7"
+    },
+    {
+        "path":  "forged-reducing-insert.html",
+        "bytes":  29165,
+        "sha256":  "086f310b28a7793365d9ee8cf4cdf0db7d821cae54bd7510952f1238f56edc6b"
+    },
+    {
+        "path":  "forged-tee.html",
+        "bytes":  29161,
+        "sha256":  "bb1611d8471ce231950b8ab256cdb77ecb49380bcad9f81bea394ef57cfd109b"
+    },
+    {
+        "path":  "forged-union.html",
+        "bytes":  29046,
+        "sha256":  "3f29cc9dd9ca8c1fd3bcc1d8afd25ce89b7a1152e6e3ecac0569b09d64659caa"
+    },
+    {
+        "path":  "gallery.html",
+        "bytes":  14671,
+        "sha256":  "cc727e88d4d8302e041099792713854e98a1bd738282c46c9afb973e6460063f"
+    },
+    {
+        "path":  "gost-flanges.html",
+        "bytes":  20181,
+        "sha256":  "8deeba8deaaccbad66efab2e36ba30ca19dcaa893b330a077df3c77392c955b5"
+    },
+    {
+        "path":  "hastelloy-flanges.html",
+        "bytes":  19521,
+        "sha256":  "7079229d8704fb231c674b8e1f2d2a6a34034d5a64e6a371a0bcafa4639809e7"
+    },
+    {
+        "path":  "hex-nipple.html",
+        "bytes":  18380,
+        "sha256":  "e604fbdc95f1a08e251d09555c90652cba2d26d6c1181658aa85a19f19e2bffd"
+    },
+    {
+        "path":  "high-hub-blind-flanges.html",
+        "bytes":  23884,
+        "sha256":  "985fd866d0781ab6f9d60b3c8c7121f6aa6e395cf9486b83db56f54e1f3ab574"
+    },
+    {
+        "path":  "img/aerospace-industries.jpg",
+        "bytes":  100135,
+        "sha256":  "42f3c880c75da8b20cb4207fb2c675254bc408dcaeb412e351808cf0323db824"
+    },
+    {
+        "path":  "img/alloy-coils.jpg",
+        "bytes":  31969,
+        "sha256":  "7622e86db3a3c6af1ca6b58c6d42756eacb2881a87244ae7704aa5d42e4c4baf"
+    },
+    {
+        "path":  "img/alloy-steel-buttweld.jpg",
+        "bytes":  37046,
+        "sha256":  "ff28c2b8b37357cffac54bdca15b51dfe5620f2fb307c8d09759772d08fcdb23"
+    },
+    {
+        "path":  "img/alloy-steel-round-bars.jpg",
+        "bytes":  35834,
+        "sha256":  "5e309e96fec8e8dce7f710a7873571fd0ba0ebdd3ee8eb852e9eb822b17b8781"
+    },
+    {
+        "path":  "img/banner-forging-poster.jpg",
+        "bytes":  20002,
+        "sha256":  "8b34e92e6a263b47c526bcc84bd9f20354a240d470f4f3282abb8dd4e29c2619"
+    },
+    {
+        "path":  "img/banner-new-poster.jpg",
+        "bytes":  36532,
+        "sha256":  "a3f1edbe786badf57eafbb61b92172bb8a6e8afb360dd1e60ac76cc54289ec35"
+    },
+    {
+        "path":  "img/banner-video-3-poster.jpg",
+        "bytes":  85117,
+        "sha256":  "4bb8e933601d75a45f46c49dbff811f9867f6b17634a98b6acd63778de63e341"
+    },
+    {
+        "path":  "img/buttweld/buttweld-180.jpg",
+        "bytes":  42073,
+        "sha256":  "81c6ff40ee9f217dcac32e53f5e8ce33335c5a0cb9ee9737dd2c830ab13ace7f"
+    },
+    {
+        "path":  "img/buttweld/buttweld-cap.jpg",
+        "bytes":  15598,
+        "sha256":  "7f5e0a63dee3532c8900fcd90bf372c6c3437f6dc7c003c8f27bd05b19873580"
+    },
+    {
+        "path":  "img/buttweld/buttweld-concentric-reducer.jpg",
+        "bytes":  26474,
+        "sha256":  "a1cce2d0f0fa31235f713ec89665206e32d54fea9a31eff27975e346b0090a9c"
+    },
+    {
+        "path":  "img/buttweld/buttweld-eccentric-reducer.jpg",
+        "bytes":  22993,
+        "sha256":  "3611eb100724c8f4df451c9b879d7a1747026ee23568d02d8eadbdc0cf9df3a9"
+    },
+    {
+        "path":  "img/buttweld/buttweld-equal-tee.jpg",
+        "bytes":  40276,
+        "sha256":  "1cb5ab2dcce09af3492bdf95c2f8b041b65b7ae87f3b59afa972ed10ab981cff"
+    },
+    {
+        "path":  "img/buttweld/buttweld-long-45.jpg",
+        "bytes":  81570,
+        "sha256":  "0020374c3dbd6ad19bc33b6a47f560fb7a04ace21ce25de2f41bbf37c433da53"
+    },
+    {
+        "path":  "img/buttweld/buttweld-short-45.jpg",
+        "bytes":  7493,
+        "sha256":  "215c1264d1ba0e7e372a6abefbd1b87ebb5f44a280393b810a9ebb84f301c6f7"
+    },
+    {
+        "path":  "img/buttweld/buttweld-stub-end.jpg",
+        "bytes":  19719,
+        "sha256":  "216166dd1b13ded7b354ec5bb2280b555f6b6f99af7b0d92fed3b4120f4414cd"
+    },
+    {
+        "path":  "img/buttweld/forge-caps-plugs.jpg",
+        "bytes":  69817,
+        "sha256":  "f79d80c245cbd0531b1302bf2574daa93567b60d9963706c5c24a0147cb9fe63"
+    },
+    {
+        "path":  "img/chemical-industries.jpg",
+        "bytes":  92978,
+        "sha256":  "4b0538b72da3c7c8e767b4e53157c5edc8d73c51a467fe78dfbf2c3db104f79b"
+    },
+    {
+        "path":  "img/cold-drawn-round-bars.jpg",
+        "bytes":  238832,
+        "sha256":  "e60322e842cac49dd69b8b6d4cfa07378eeb549976009fc8054f6ce0447d8325"
+    },
+    {
+        "path":  "img/contact-world-map.png",
+        "bytes":  132607,
+        "sha256":  "2d25c46f27f7316741bf53f1ff6687c9b17b20e59b45231f3d7ef78747c0ceb3"
+    },
+    {
+        "path":  "img/cross.jpg",
+        "bytes":  12741,
+        "sha256":  "298bd501aedd7e78c60a4f1ee5a950ae27bf6c4c0ff7812bbd090b6da705bc7d"
+    },
+    {
+        "path":  "img/cs-buttweld.jpg",
+        "bytes":  37039,
+        "sha256":  "15d542474f8b795032a6593d6eddf03be9987c33c0690c1190d1d6a765cd90ff"
+    },
+    {
+        "path":  "img/cs-forged.jpg",
+        "bytes":  29819,
+        "sha256":  "4f1726c26a02ccb0f2463d8a213d91b50f8d0fe7cdaaa53f2bffb28497815ade"
+    },
+    {
+        "path":  "img/cs-round-bars.jpg",
+        "bytes":  46908,
+        "sha256":  "157285c792876915df9a933cee3c59ac3638a3784cfbe8e4522a197f8faa8282"
+    },
+    {
+        "path":  "img/cs-sheets.jpg",
+        "bytes":  34652,
+        "sha256":  "56902395d4b3dc08bc06dfa4e5605ee23f3cd430eea326077f90e494ec650aaa"
+    },
+    {
+        "path":  "img/cs-wire.jpg",
+        "bytes":  62339,
+        "sha256":  "e6ccc27567c402155ec3910bb9f4cc1ead6ec5456ae7230b1183f638d24481ba"
+    },
+    {
+        "path":  "img/elbow-fittings.jpg",
+        "bytes":  20692,
+        "sha256":  "bbf5c8e5ea99eedee5e3764d5b38a0b9140d68d20d2d45152955281cd2adface"
+    },
+    {
+        "path":  "img/energy-indiustries.jpg",
+        "bytes":  74219,
+        "sha256":  "1d6b4b8b57eb0ce36417c483643eb505051b70d39ace2a364539a5888def9975"
+    },
+    {
+        "path":  "img/fabricated-pipes.jpg",
+        "bytes":  45610,
+        "sha256":  "46fd6207046925a4c6450cb1069658f4360b127656f9e14d6914baa13fe93d22"
+    },
+    {
+        "path":  "img/fastners-banner.jpg",
+        "bytes":  204114,
+        "sha256":  "81e681fb2da93353725f3965abd0026f46a86c498c039fe2754d1fb98a32dd81"
+    },
+    {
+        "path":  "img/flag-ae.png",
+        "bytes":  155,
+        "sha256":  "7ff4c92ac96f02ef5a513c10cf5eb1e4d6e7fedd3ab3306427156244700bc384"
+    },
+    {
+        "path":  "img/flag-au.png",
+        "bytes":  935,
+        "sha256":  "8896f5f0cc5baee5244f1b744d6d45a5b473b5643e00cf88136c6952b970f315"
+    },
+    {
+        "path":  "img/flag-ca.png",
+        "bytes":  699,
+        "sha256":  "e36b7fbd7218d785e18143d5a8ddffbab41188b6cf8d0115e2d7ff555560706e"
+    },
+    {
+        "path":  "img/flag-de.png",
+        "bytes":  119,
+        "sha256":  "ef579f50dd92e3a70b89407c6e1858383cd7a58d7c9e07fccd8afb923b1867ff"
+    },
+    {
+        "path":  "img/flag-gb.png",
+        "bytes":  547,
+        "sha256":  "62bc061bdc7296b2f47a3e3227fd423a66e6384c43608297775ab31984f75aae"
+    },
+    {
+        "path":  "img/flag-it.png",
+        "bytes":  155,
+        "sha256":  "1dfb9ea9cb89097836d39c0902c0a7283bbd7d222d80c1ddc990899717b1ae0e"
+    },
+    {
+        "path":  "img/flag-nl.png",
+        "bytes":  147,
+        "sha256":  "a452da7558753dd712a50f34768623fe56be32d6a9ae20f216ce93b4af8bd8d4"
+    },
+    {
+        "path":  "img/flag-om.png",
+        "bytes":  463,
+        "sha256":  "c510a79a879c1f57fd3fbc8315b483a8560620fd6df6d2611a9dc68e37e7ecc1"
+    },
+    {
+        "path":  "img/flag-qa.png",
+        "bytes":  201,
+        "sha256":  "b56ace2490ca768ab6e65023f5bde4693f56c265209ddbbdae68c2b6e02317c4"
+    },
+    {
+        "path":  "img/flag-sa.png",
+        "bytes":  1354,
+        "sha256":  "3975f7397e7245947868c3654494842fe4160f7f68127817dbb3b8548e5104a8"
+    },
+    {
+        "path":  "img/flag-sg.png",
+        "bytes":  619,
+        "sha256":  "6fc703614d2a41555ff90d7528fcda39c7bcf6b5e3ce492c2f76d67c938bc161"
+    },
+    {
+        "path":  "img/flag-us.png",
+        "bytes":  629,
+        "sha256":  "bb1d77351f006b1ca0fc414314388da9f8cb7bd940a4d59770328e8ca03e8439"
+    },
+    {
+        "path":  "img/flange banner01.jpg",
+        "bytes":  98178,
+        "sha256":  "62120304e3acea2d4c93a6e172531481f7ac4783ab084a86669b5304b52315a3"
+    },
+    {
+        "path":  "img/flange banner02.jpg",
+        "bytes":  197026,
+        "sha256":  "588d32f392b7f893a96445af033dffce402f22383311e9e59e8da13ab41f2693"
+    },
+    {
+        "path":  "img/flanges/3_-.jpg",
+        "bytes":  281501,
+        "sha256":  "32cd6b944a3b4e7475b013f21243f71a9b66de3f1f478ee15eee225e8a5740c1"
+    },
+    {
+        "path":  "img/flanges/3_lap-joint-flanges.jpg",
+        "bytes":  205399,
+        "sha256":  "63264300f33f41f07d64ed60ff123d9e8827e9d695a5f706dee8e342750aafd4"
+    },
+    {
+        "path":  "img/flanges/3_threaded-flanges.jpg",
+        "bytes":  242639,
+        "sha256":  "84ca04cfe22edb005264e8613a514514f4f4c4d87c71795df84ef8c43150d298"
+    },
+    {
+        "path":  "img/flanges/blind-flange.jpg",
+        "bytes":  426313,
+        "sha256":  "0dc5584efa439f47155549b1ccc5f69010778a3b9405cdd6e836fd8c75ad1814"
+    },
+    {
+        "path":  "img/flanges/blind-flanges.jpg",
+        "bytes":  26655,
+        "sha256":  "a06822206550e75696fd93302a464da98c02340be07c856c5aeac239ee4d09fd"
+    },
+    {
+        "path":  "img/flanges/blinf-flange-3.48.36.webp",
+        "bytes":  9718,
+        "sha256":  "1f6defdecef6cc7fc9f11bbf79aeb84b6bbd04c16019ff7d6384e360720b1d38"
+    },
+    {
+        "path":  "img/flanges/companion-flanges.jpg",
+        "bytes":  1037960,
+        "sha256":  "4de006b3d93f252364ebb76fb066ddc6f63eead7ea3747f2896033c916de2a36"
+    },
+    {
+        "path":  "img/flanges/companion-supplier.jpg",
+        "bytes":  48441,
+        "sha256":  "9d08402b0e1be3a0623367cce9ff0c9dddf675610ddc9241084126492bb1c4ad"
+    },
+    {
+        "path":  "img/flanges/flange banner.webp",
+        "bytes":  41746,
+        "sha256":  "daa404aa85816a90905d6bd69a8b59dac7628e37a13f896fbcb8a27fc2645930"
+    },
+    {
+        "path":  "img/flanges/forged-45-degree.jpg",
+        "bytes":  31762,
+        "sha256":  "db6df8092ff03ec47d70f2e105a8d6872a8f6c811a5fe6a39525c3732561b132"
+    },
+    {
+        "path":  "img/flanges/forged-45-degree.webp",
+        "bytes":  11090,
+        "sha256":  "7fa354d91b7f9cbea8b4ca766149e272875fb69558249bc6ae8c1403aa83e1f7"
+    },
+    {
+        "path":  "img/flanges/lap-joint-flanges.webp",
+        "bytes":  11860,
+        "sha256":  "a71f0783e00873abee39eff8dc1a7ee81bd557e5ffe852c87bade20e1284c79c"
+    },
+    {
+        "path":  "img/flanges/long-weld-neck-flanges.png",
+        "bytes":  131370,
+        "sha256":  "f6d9b70d72df89525c6049c5e0dbe028e48b7dc214545378906e58e5bcf91a8a"
+    },
+    {
+        "path":  "img/flanges/long-weld-neck-flanges.webp",
+        "bytes":  25134,
+        "sha256":  "0c7b0998e642b176311c1b9ff5ac137019d05b6169b8a8875d064be63e1e62a8"
+    },
+    {
+        "path":  "img/flanges/orifice_eng.jpg",
+        "bytes":  28908,
+        "sha256":  "c0673ae05f59ffde489f939fc17f3ea271ddd1f70f7e2b0962ef36b6c4b196d9"
+    },
+    {
+        "path":  "img/flanges/orifice-500x500.webp",
+        "bytes":  6628,
+        "sha256":  "07e10d7f3ba0e027c343f4c8ea1b78a73cb8291dbd8ed93b56476052a40f56df"
+    },
+    {
+        "path":  "img/flanges/orific-flange.png",
+        "bytes":  523278,
+        "sha256":  "451e1237e81b3cff137c0ecb008106f8834e1cf0ca3e206f85a648e3cbdbb400"
+    },
+    {
+        "path":  "img/flanges/reference/flat-face.png",
+        "bytes":  39159,
+        "sha256":  "7d7cfe1d09ccd501bb31d6eeea656552743ab0602957b32b1e3ad622c9c920d7"
+    },
+    {
+        "path":  "img/flanges/reference/lap-joint.png",
+        "bytes":  44488,
+        "sha256":  "8f52138c7fa41e876d3af3b27acf709258e16f4d738f0de2363e5f58f284a922"
+    },
+    {
+        "path":  "img/flanges/reference/line-blanks.png",
+        "bytes":  78844,
+        "sha256":  "ae91ed1ae616b5db1c8ff3c9e982d2baf86da9b98de74006b44e82a715234c1b"
+    },
+    {
+        "path":  "img/flanges/reference/male-and-female.png",
+        "bytes":  40916,
+        "sha256":  "5042b85fd671832db29d346a4e34cd9fade81b9f6844b28b3447849474c40439"
+    },
+    {
+        "path":  "img/flanges/reference/product-expander-flanges.png",
+        "bytes":  56525,
+        "sha256":  "c0b665afa80f5705e2d8ac9de3e70c86be1b11440bd7c8c869d1fe3224371e00"
+    },
+    {
+        "path":  "img/flanges/reference/product-forged-flanges.png",
+        "bytes":  70849,
+        "sha256":  "0d8e45ee21ad1f14cf9b0374299d797aef72032a867db3bcdde8c9c1be17a0de"
+    },
+    {
+        "path":  "img/flanges/reference/product-high-hub-blind-flanges.png",
+        "bytes":  41968,
+        "sha256":  "c53b3c84aa696d92c75118aeba109a6407b298a1469d4ed0295e05f8be5fc989"
+    },
+    {
+        "path":  "img/flanges/reference/product-lip-type-flanges.png",
+        "bytes":  61252,
+        "sha256":  "4ba90d7f9343f203ccf5ff4dbe9ef94a493eae89ce834eeb681ce967b9119811"
+    },
+    {
+        "path":  "img/flanges/reference/product-loose-flanges.png",
+        "bytes":  42763,
+        "sha256":  "f9c31fd8fafd59805ebf3612d8c73a5bbe3b21a0749591a94ff38d5b021729fe"
+    },
+    {
+        "path":  "img/flanges/reference/product-nipo-flanges.png",
+        "bytes":  43249,
+        "sha256":  "cf1ac0215e905b6ccbfd807da22941cf3cb02c4243c2e073edff8809b94d7d4b"
+    },
+    {
+        "path":  "img/flanges/reference/product-plate-flanges.png",
+        "bytes":  79654,
+        "sha256":  "8dee966d5a554d0aabd0ff14ebfed14796055a7b207e1fc10313073b4d03a99d"
+    },
+    {
+        "path":  "img/flanges/reference/product-puddle-flanges.png",
+        "bytes":  47052,
+        "sha256":  "70a41c340b792695544bca1ddb66c9f6939d4a5fff403bc0b4e917814c8467ff"
+    },
+    {
+        "path":  "img/flanges/reference/product-reducing-flanges.png",
+        "bytes":  76474,
+        "sha256":  "b9742bad46cbc3325a631aa0573d0cbe2e7ca8f32c1636237ca605915c74a270"
+    },
+    {
+        "path":  "img/flanges/reference/product-ring-spacers.png",
+        "bytes":  61975,
+        "sha256":  "e6a0dbb93dca00e7399236b28d00222ae140be5442f5ad662ea4e0f920fb5caf"
+    },
+    {
+        "path":  "img/flanges/reference/product-spade-flanges.png",
+        "bytes":  53989,
+        "sha256":  "22ae8e55ff217b01d503a000fa1ddd13469eaacf99207cb42fd46f412b69813b"
+    },
+    {
+        "path":  "img/flanges/reference/product-spectacle-blind-flanges.png",
+        "bytes":  66513,
+        "sha256":  "e6ecc9ee986a8bc0dce19b372506af38190e93dadf42e54f9eb34f574b948b25"
+    },
+    {
+        "path":  "img/flanges/reference/product-square-flanges.png",
+        "bytes":  54212,
+        "sha256":  "2457666c75355989ae012fc814c0d7686aedf621d66090141a2f36a008d8ec2e"
+    },
+    {
+        "path":  "img/flanges/reference/product-weldo-flanges.png",
+        "bytes":  44538,
+        "sha256":  "60b59019e7a4054d0ba1d0d7cc4cbcd6544f201fc67750695db48ae19c752eeb"
+    },
+    {
+        "path":  "img/flanges/reference/raised-face.png",
+        "bytes":  41540,
+        "sha256":  "1244ed5a6a459f871bf53fd84651effb3eac2fe8a3602e099690a11e3f104868"
+    },
+    {
+        "path":  "img/flanges/reference/rtj.png",
+        "bytes":  48966,
+        "sha256":  "e476e3a5a02b66fb9cc4a44c445076bf22a9e3943beac7bb53a7aa4569074a19"
+    },
+    {
+        "path":  "img/flanges/reference/tongue-and-groove.png",
+        "bytes":  42124,
+        "sha256":  "2c24f84feceab809fa5fe750698608b215ded2df56efcc45befde5b039a382a1"
+    },
+    {
+        "path":  "img/flanges/slip-om-flanges.jpg",
+        "bytes":  52365,
+        "sha256":  "137adce126006ed897031b105f6a6cbec620a37c4ffb4af06fe1303c92a5d4ba"
+    },
+    {
+        "path":  "img/flanges/slip-on-flanges.jpg",
+        "bytes":  23388,
+        "sha256":  "08d6189ef9198cedc759d1cbc5b044ca10a19f50e4d2c90fe03f23506e46ff1a"
+    },
+    {
+        "path":  "img/flanges/slip-on-flanges-2.jfif",
+        "bytes":  4472,
+        "sha256":  "034ce10fb8f942f1ba54f2859ab9b7474aa9ef027eea0f2cab2df80bd159f3a5"
+    },
+    {
+        "path":  "img/flanges/slip-on-flanges-2-4.22.26.webp",
+        "bytes":  5786,
+        "sha256":  "1ad16bf237a4bd4b8c5cb866021119412af20b7a394b31ec5b515c9e4242702b"
+    },
+    {
+        "path":  "img/flanges/socket-weld-flange.webp",
+        "bytes":  12960,
+        "sha256":  "f6f53dd315c9d40936ea2073814a5a95c612a7144d293438d438d32ef5202b42"
+    },
+    {
+        "path":  "img/flanges/socket-weld-flanges.png",
+        "bytes":  260987,
+        "sha256":  "65592c7581061fbfdede553f16de10dbdff5def314f0baaa78fbb82364797a7f"
+    },
+    {
+        "path":  "img/flanges/socket-weld-flanges.webp",
+        "bytes":  5294,
+        "sha256":  "d3d3aa6d755909520f3adddba7b4e0eae89fbda1953c610adfdf7014bc2d771e"
+    },
+    {
+        "path":  "img/flanges/threaded-flanges.jpg",
+        "bytes":  52082,
+        "sha256":  "71453131c4e2b7daf6f0f35cbd6d6adb224d4092098c218f7ce9516a01ccf733"
+    },
+    {
+        "path":  "img/flanges/threaded-flanges.webp",
+        "bytes":  10254,
+        "sha256":  "fe157d3270ada8200df676990c13070e0f3904e9e27c4c74a082040394384111"
+    },
+    {
+        "path":  "img/flanges/weld-neck.png",
+        "bytes":  1923307,
+        "sha256":  "5b40288f629762e9a816f69ebe33ef22a47a2683d7cf9123cc005d2a66ae4849"
+    },
+    {
+        "path":  "img/forged-bushing.jpg",
+        "bytes":  19817,
+        "sha256":  "9f2bd6d9d2c9dd252cf2d707ab9e55004427ce1f8bc337b2f2060917e68a30a2"
+    },
+    {
+        "path":  "img/forged-coupling.jpg",
+        "bytes":  19005,
+        "sha256":  "327a882cdddd1bce3c727540bb78bcc6e441d395ab75a964759cd41b5a0e8fa6"
+    },
+    {
+        "path":  "img/forged-cross.jpg",
+        "bytes":  40148,
+        "sha256":  "24c70942f26179f3ebba1a659b8babebe7a39327c7b2b3737c732b8ec1e69cb8"
+    },
+    {
+        "path":  "img/forged-elbow.jpg",
+        "bytes":  31532,
+        "sha256":  "ceb8d675901abf67b2aca4718249e05efa4c7df7f90c8275f5753fa5fc334e9e"
+    },
+    {
+        "path":  "img/forged-tee.jpg",
+        "bytes":  33015,
+        "sha256":  "b403fd105fbc35d510e27f15a228525c37adbf9f497573052a76e46bb79a3218"
+    },
+    {
+        "path":  "img/forged-union.jpg",
+        "bytes":  19728,
+        "sha256":  "95e97daa6da553703c098353a4acdb0d081caee04c3318766dd8a510ea97b1e9"
+    },
+    {
+        "path":  "img/forging-reel-poster.png",
+        "bytes":  738489,
+        "sha256":  "1acef4135c9a8b6e9d6a589b2732ff8f61b520877812bedc9c85fc4eaf127fbd"
+    },
+    {
+        "path":  "img/gallery/flanges.png",
+        "bytes":  111331,
+        "sha256":  "45fa67f5154cc3d67d0180f80aaddd295ca1a8d3a1c73acaeeb244847ed7045c"
+    },
+    {
+        "path":  "img/gallery/forging.png",
+        "bytes":  156823,
+        "sha256":  "75f64e3fa1cfc8fbbcb02d7b04beccdb8042d95bd771eae06e92e12621ae345e"
+    },
+    {
+        "path":  "img/gallery/forming.png",
+        "bytes":  267697,
+        "sha256":  "5a6a9415b36b85041c1924110842cd0afcd265e9b27bda2939238a50dc4bac91"
+    },
+    {
+        "path":  "img/gallery/heating.png",
+        "bytes":  527087,
+        "sha256":  "0db31bc3f14ddfafe7e363d77c8599597eab7642482bb58d25e964a7c8fab083"
+    },
+    {
+        "path":  "img/gallery/inspection.png",
+        "bytes":  248929,
+        "sha256":  "155725f65b39290c8e4b448ebff20d7a770ee75d233c288773d7b5c6f874c2f8"
+    },
+    {
+        "path":  "img/gallery/machining.png",
+        "bytes":  256286,
+        "sha256":  "6934862d42639981f03b3d108f86e6c41606717c4da464278435ae339b9cc07d"
+    },
+    {
+        "path":  "img/gallery/press.png",
+        "bytes":  414593,
+        "sha256":  "782b34f2d59d8fb273cc08849f49b68730d3fcec72e898865f24cd6f63b53d78"
+    },
+    {
+        "path":  "img/gallery/shop-floor.png",
+        "bytes":  196208,
+        "sha256":  "36e207f2cc16a846278e721f3f9268e132c61b04fd371c41476fa6b8a6f0d9d6"
+    },
+    {
+        "path":  "img/gallery/team.png",
+        "bytes":  597205,
+        "sha256":  "f8fe03aa2caa0a72f16fc2c8e1e448b15afeaafcb604bc86bfba93d6a58bedbe"
+    },
+    {
+        "path":  "img/gallery/unit-one.png",
+        "bytes":  483434,
+        "sha256":  "daf881e2d308bfe61c5ce8b11199bbfb75d00621575c92d191c540344be72b30"
+    },
+    {
+        "path":  "img/gallery/unit-two.png",
+        "bytes":  466339,
+        "sha256":  "357df18b7b0ead39969b39891bb7f5913f46f46a93cfb10864da5343596e9447"
+    },
+    {
+        "path":  "img/gallery/workshop.png",
+        "bytes":  186032,
+        "sha256":  "bb2e1fc1f62e8e40ed3b710c0736d342d77cddf45ca17466b65b5540c672e07f"
+    },
+    {
+        "path":  "img/hastealloy-buttweld.jpg",
+        "bytes":  28353,
+        "sha256":  "4af5481dfdc1c1fa1ad119a9f0a86a0ca523605bcbca5ca6e5c5d95da9852189"
+    },
+    {
+        "path":  "img/hex-nuts.jpg",
+        "bytes":  34740,
+        "sha256":  "791937a6fdf1725d34a8fd0ae721ecd7d390f24665d3653fa28af98bbd3f78f2"
+    },
+    {
+        "path":  "img/incoloy-buttweld.jpg",
+        "bytes":  31293,
+        "sha256":  "fe43e18c48e4ed365346747b9b9906a7110e5eb6bb424dd4bb5a04de4b358150"
+    },
+    {
+        "path":  "img/inconol-buttwweld.jpg",
+        "bytes":  34529,
+        "sha256":  "950e43c06699abc9d19bbb980f0f73c798426217fa6cca75390fd45ac67c2442"
+    },
+    {
+        "path":  "img/lng-industries.jpg",
+        "bytes":  37214,
+        "sha256":  "0ff24b2bc223cb40c696b451bddc1738a7b4664e57ffaef2385c19806efb0e6d"
+    },
+    {
+        "path":  "img/logo-1.jpg",
+        "bytes":  26418,
+        "sha256":  "45776f814eea0339f075e66d9f15046c5456067be97f06184f71655b7f91586c"
+    },
+    {
+        "path":  "img/logo-2.jpg",
+        "bytes":  34726,
+        "sha256":  "26e1e9cc29ae9a6c599ec85726cb684bdfcd890543be20bda9e808e6b6a3eda4"
+    },
+    {
+        "path":  "img/logo-3.jpg",
+        "bytes":  39355,
+        "sha256":  "c22127af6d009c7253ac101f48ec2cb78cd1d5e281c3ea7965b6d638f4ba6f28"
+    },
+    {
+        "path":  "img/logo-4.jpg",
+        "bytes":  41138,
+        "sha256":  "7ce085f2ba13048f235148ce0d60cf5312fc4688d64025dd793181190d6cb418"
+    },
+    {
+        "path":  "img/logo-5.jpg",
+        "bytes":  34493,
+        "sha256":  "6a156c816271ac4836d38002d7911cd72d87ce8f9caaae00b9e06f594fec55e8"
+    },
+    {
+        "path":  "img/logo-6.jpg",
+        "bytes":  37771,
+        "sha256":  "6daa0103423bff3943cc2a724c98fedc1b5cc141ca7e047161b77e1067287e8e"
+    },
+    {
+        "path":  "img/marine-industries.jpg",
+        "bytes":  78954,
+        "sha256":  "0fd6ca34469db0501a30865d3254b183c1bfa447f7b7ea26e441b157db2ea169"
+    },
+    {
+        "path":  "img/monel-buttweld.jpg",
+        "bytes":  34082,
+        "sha256":  "cb34c55aafba3e401823313892f4f7065c9c0c16b411a0412c0b861b6ac83710"
+    },
+    {
+        "path":  "img/monel-flange.jpg",
+        "bytes":  31582,
+        "sha256":  "8b628835c0881dcde02bb83f15d585d16a085eccc99b3c3d1ae1ec8a139dd3bb"
+    },
+    {
+        "path":  "img/nickle-buttweld.jpg",
+        "bytes":  38241,
+        "sha256":  "acbdcec79aba61aa99735c107041d870ae2a77bf6c00b2e8f75635a911209799"
+    },
+    {
+        "path":  "img/nickle-wire.jpg",
+        "bytes":  55655,
+        "sha256":  "e670946a936b1aca0bd4f1729fcd947e49274fde6bab681e8073b1cc54f14150"
+    },
+    {
+        "path":  "img/nuclear-industries.jpg",
+        "bytes":  57634,
+        "sha256":  "9436a03fa0227469339ee5903160c5976ddf7ba5a4bb93764858f1a5b51d218e"
+    },
+    {
+        "path":  "img/oil\u0026gas-industries.jpg",
+        "bytes":  81322,
+        "sha256":  "aeccacfc48c0868881cc21fdae68b916f1cf7d44606b56a75f4a509984e49ed6"
+    },
+    {
+        "path":  "img/petrochemical-industries.jpg",
+        "bytes":  108036,
+        "sha256":  "e8120d136ea38cd032e107338a14f51b0775b2f90a3963e41e9f337d44454d19"
+    },
+    {
+        "path":  "img/plant-maintenance.jpg",
+        "bytes":  131979,
+        "sha256":  "771d9600c7b00fd36f17fb09d16fef081bfc0176b510ee923d1b0c2032c49242"
+    },
+    {
+        "path":  "img/product-range.jpg",
+        "bytes":  228223,
+        "sha256":  "69110bf78cee53d29eab573fc5ad4b23bb09473c260a2bc2c954eabedad7bd8a"
+    },
+    {
+        "path":  "img/seamless-pipes.jpg",
+        "bytes":  35384,
+        "sha256":  "510162c07ce6c8d34551b7100d10c3221c42d38b8d61b345058011df74e07213"
+    },
+    {
+        "path":  "img/ss-anchor.jpg",
+        "bytes":  49397,
+        "sha256":  "b505db7a67b34ee8ed92b894e9fe166d4310474449a11dc47280d14f22cba8c0"
+    },
+    {
+        "path":  "img/ss-angle.jpg",
+        "bytes":  39969,
+        "sha256":  "f7d846c30a8a36ae475d6d49894d85576e77e303373b892c3eac1fd6ded69a02"
+    },
+    {
+        "path":  "img/ss-beam.jpg",
+        "bytes":  32743,
+        "sha256":  "7a3c9ec140e7804d73d7840fa20d464e4d7a493088ea93de0c0d2cf4f4084582"
+    },
+    {
+        "path":  "img/ss-buttweld.jpg",
+        "bytes":  45153,
+        "sha256":  "a247c3b5f377895675441622031aa4ce8c3be2c65251e48fbc3dfde3e43ea72c"
+    },
+    {
+        "path":  "img/ss-buttweld-new.jpg",
+        "bytes":  24815,
+        "sha256":  "5a3339e1829d1a70f5bf827cfeb374b906f02d61bd0f7d4300e1935a8f9342d0"
+    },
+    {
+        "path":  "img/ss-channels.jpg",
+        "bytes":  31068,
+        "sha256":  "0f7f87c0d91353e61f2af8995212abe9bff23560cf31d8a76f6e12438d19536e"
+    },
+    {
+        "path":  "img/ss-fastners.jpg",
+        "bytes":  44247,
+        "sha256":  "b03381fd5594df49022d7a1ebbb4e69d4114979e6a6096c8b809a4c9ec758f1c"
+    },
+    {
+        "path":  "img/ss-forged.jpg",
+        "bytes":  31466,
+        "sha256":  "66a464b897ab84b9d6eef8b663efa5f2d53446c6003b536b192bde51b11563d5"
+    },
+    {
+        "path":  "img/ss-pipes.jpg",
+        "bytes":  30918,
+        "sha256":  "0b313e5d28554fcfb4483a5f7012f3ad30c35ffad81e8cde2ff435d4c92af7e5"
+    },
+    {
+        "path":  "img/ss-roundbars.jpg",
+        "bytes":  45286,
+        "sha256":  "6a001d253beb3bb91e01d443a384ba198effcc4b85355f22971719532d4e698e"
+    },
+    {
+        "path":  "img/ss-sheets.jpg",
+        "bytes":  38348,
+        "sha256":  "fe00eda72ff64c553503e6b797c5039076636e3a97c0b303e611ebe65195d779"
+    },
+    {
+        "path":  "img/ss-washer.jpg",
+        "bytes":  51652,
+        "sha256":  "119d5f0d4a1deb1df36aef3f5fe10a69211221a619d64b8a49d507c7c622adeb"
+    },
+    {
+        "path":  "img/ss-wire-1.png",
+        "bytes":  311398,
+        "sha256":  "42a0dd1ca0108d53ab71e727cd1043cddb57de64ca735196228ce57282556a63"
+    },
+    {
+        "path":  "img/ss-wires.jpg",
+        "bytes":  238904,
+        "sha256":  "e76bfd963683fa35661512f6211d728172c82b07c5a273ecb06397fe14f33373"
+    },
+    {
+        "path":  "img/straight-fittings.jpg",
+        "bytes":  18883,
+        "sha256":  "78475ea8a5f21d8eac791a077a1d9cd2cbf01b62be70d4d25c22a32c1c977ef9"
+    },
+    {
+        "path":  "img/sugar-industries.jpg",
+        "bytes":  99414,
+        "sha256":  "3c43b1cc10c60ceb3268174ce835bf4ecf21101dc04cfece847b74f6d165b904"
+    },
+    {
+        "path":  "img/test-1.jpg",
+        "bytes":  35878,
+        "sha256":  "98d9d2b7833be52d6c591e4f9f11455cbf49d4425485fb1a75a4a59b160df47d"
+    },
+    {
+        "path":  "img/titanium-buttweld.jpg",
+        "bytes":  26509,
+        "sha256":  "3367c7a151d8e0568e48ee919a0e1ee107b755a833c4a3409a738aed927ca787"
+    },
+    {
+        "path":  "img/titanium-flange.jpg",
+        "bytes":  33532,
+        "sha256":  "c79437fbdb0067014d56da73b20ca6129297b685a476ebd792e0239068f20000"
+    },
+    {
+        "path":  "img/union-fittings.jpg",
+        "bytes":  17197,
+        "sha256":  "1ffaf9789082ff1ae68303e6fd5af40a1448dae4d82054a888c623366ba9312c"
+    },
+    {
+        "path":  "img/valtron-logo.png",
+        "bytes":  99731,
+        "sha256":  "9bbc9842ba4547bef721976623656de9b7c9ca179183159edb5cc9d19918452e"
+    },
+    {
+        "path":  "img/valtron-wordmark.png",
+        "bytes":  45824,
+        "sha256":  "cf8a2e920b1c1fc282ebcfb794c7b68c78293b893421009a89bc530121e449dd"
+    },
+    {
+        "path":  "img/welded-pipes.jpg",
+        "bytes":  53888,
+        "sha256":  "19f38f44f3c9bac91213d92cbdcdddb952b69437d7ef48d27e46a95cdb9e2f37"
+    },
+    {
+        "path":  "img/welding-1.jpg",
+        "bytes":  28531,
+        "sha256":  "aa9d9d3cfcebd45abf1edc4f4bb1b60a837e57a810af4de119dc4b41029b1cbc"
+    },
+    {
+        "path":  "img/welding-2.jpg",
+        "bytes":  30851,
+        "sha256":  "752f07f8d2a684335230fe91f3e3b79e6aa1e219152d95e624d7ebcbd981a334"
+    },
+    {
+        "path":  "img/welding-wires.jpg",
+        "bytes":  81737,
+        "sha256":  "a6524b112ab967832ba91a2541daeb94767e73421a5f7925556b1e54b2fd6d7d"
+    },
+    {
+        "path":  "img/weld-neck-flange-manufacturers.jpg",
+        "bytes":  8992,
+        "sha256":  "9e87b62d4c2f05a6d26c1cf80fecbace90adddc1b82f435a2289b95ae09226ff"
+    },
+    {
+        "path":  "incoloy-flanges.html",
+        "bytes":  19707,
+        "sha256":  "0b1e0d396190058c6db91203e18a2943e6dc3632a1247aefad22be4a0e8cab86"
+    },
+    {
+        "path":  "inconel-flanges.html",
+        "bytes":  19650,
+        "sha256":  "281250e88f3dcbe1a1d6226341d597b92942c01c1b88a4b8f246ef51db1cdba8"
+    },
+    {
+        "path":  "index.html",
+        "bytes":  46935,
+        "sha256":  "b14ea0860aa51f6fb34c5b8e5c318900387d09e19393554b03a0e48a948557cc"
+    },
+    {
+        "path":  "jis-flanges.html",
+        "bytes":  20025,
+        "sha256":  "cf058d0447a12e19a06e2e9d152fadc568ce8c57196f68bb8da1704545cce0ce"
+    },
+    {
+        "path":  "js/catalogue.js",
+        "bytes":  16259,
+        "sha256":  "c1940e26c83e4913b6a1d614625de4ccac3db967acb40353a65b90b24519388e"
+    },
+    {
+        "path":  "js/gallery.js",
+        "bytes":  2432,
+        "sha256":  "e3580dc6912c24a9bcc55c43cd2c8ea4257dfe6721bb57bec160797ef3b4255d"
+    },
+    {
+        "path":  "js/home.js",
+        "bytes":  6642,
+        "sha256":  "44ba9b2696db454cbbfe22468bf47542e9bffc30d7badb6cfa100effbff1e069"
+    },
+    {
+        "path":  "js/main.js",
+        "bytes":  6406,
+        "sha256":  "9f65f92524e2ad07a383a8cda2357882ab03ab0b8d58c89bd602e8a6c9cf0def"
+    },
+    {
+        "path":  "lap-joint-facing.html",
+        "bytes":  20299,
+        "sha256":  "8348df2e2a184383131134ed001bc30ca59e28328de452422de227c72e192d16"
+    },
+    {
+        "path":  "lap-joint-flanges.html",
+        "bytes":  22771,
+        "sha256":  "06cf3c3ba591b9ae8586912b8829d70322085fa8c2bbe903b5f7af6b2c523d0a"
+    },
+    {
+        "path":  "lib/animate/animate.css",
+        "bytes":  25427,
+        "sha256":  "cb09ab0572c6a6549a782e2843218c00285cb737ae50fe29a5061ca96aff0234"
+    },
+    {
+        "path":  "lib/animate/animate.min.css",
+        "bytes":  16964,
+        "sha256":  "d94d98ac4369a9db03e7b4040445b922d71a46ab0065f33db21f157e8436c6dd"
+    },
+    {
+        "path":  "lib/counterup/counterup.min.js",
+        "bytes":  2417,
+        "sha256":  "f0864791ee59173e241be3d4830297555009615292c9fc1e7c4cf879156e9b80"
+    },
+    {
+        "path":  "lib/easing/easing.js",
+        "bytes":  4260,
+        "sha256":  "35efbed3ab17c310d565d88d65566489e86a960c580f2238ace1747ad1fbf0cd"
+    },
+    {
+        "path":  "lib/easing/easing.min.js",
+        "bytes":  2303,
+        "sha256":  "901eb80cc3f8c274fe6711bd023884258839610c9274082a4881f71e2206b4fb"
+    },
+    {
+        "path":  "lib/flaticon/font/flaticon.css",
+        "bytes":  1368,
+        "sha256":  "9a4e55cf68849121faf3af875718b27a83b5ff345ecb7b6222385ae2d73b7468"
+    },
+    {
+        "path":  "lib/flaticon/font/Flaticon.eot",
+        "bytes":  8890,
+        "sha256":  "f5794fdbde968d10f029db977bba3f145ab1d24c0c20e251781673dcedd43e09"
+    },
+    {
+        "path":  "lib/flaticon/font/Flaticon.svg",
+        "bytes":  39942,
+        "sha256":  "83be63e427ad341d0879a8c91a645654b738095e45715d362cfee643d20b2000"
+    },
+    {
+        "path":  "lib/flaticon/font/Flaticon.ttf",
+        "bytes":  8712,
+        "sha256":  "271cb5ea4010bd4556ba9d4a117036073e1f9d732535e70a90febf8a276f56b5"
+    },
+    {
+        "path":  "lib/flaticon/font/Flaticon.woff",
+        "bytes":  5068,
+        "sha256":  "f47a62c338c2edf3dd53d3bed8b42ac4addcd343238fbf7f1c53c966ccdf7cdf"
+    },
+    {
+        "path":  "lib/flaticon/font/Flaticon.woff2",
+        "bytes":  4076,
+        "sha256":  "2aaba83ef27d984ce72b193eeea80a801ab147a3e4bc27f7fb3188c5a901029b"
+    },
+    {
+        "path":  "lib/flaticon/license/license.pdf",
+        "bytes":  35708,
+        "sha256":  "7cc25d27268a033ce65c4c538cc71376ca5d50b78cc21b0bf2b425736e4f114a"
+    },
+    {
+        "path":  "lib/owlcarousel/assets/ajax-loader.gif",
+        "bytes":  3208,
+        "sha256":  "0218fcc589e40339afb0fb6c42d25980d9bdca4660fa51f122b46663ea59d948"
+    },
+    {
+        "path":  "lib/owlcarousel/assets/owl.carousel.css",
+        "bytes":  4198,
+        "sha256":  "36aa42382294bd06e999e8ce16e36f39bdcb56e9b95bbbc97f76f1e2c0cdaf99"
+    },
+    {
+        "path":  "lib/owlcarousel/assets/owl.carousel.min.css",
+        "bytes":  2941,
+        "sha256":  "8608c63311f463ed5cb19febda4aaedc756eba9516c345375e5a7e56ec67a46e"
+    },
+    {
+        "path":  "lib/owlcarousel/assets/owl.theme.default.css",
+        "bytes":  1353,
+        "sha256":  "97966cbba4d1b13da01c5d20bae1a742f37c92bf3771eb74b2cadb2ccf7e1e2e"
+    },
+    {
+        "path":  "lib/owlcarousel/assets/owl.theme.default.min.css",
+        "bytes":  941,
+        "sha256":  "fedfa62c29729ccdabb5e90b287385f13ef1c5c8b4e5efbc000702b110e40fdd"
+    },
+    {
+        "path":  "lib/owlcarousel/assets/owl.theme.green.css",
+        "bytes":  1351,
+        "sha256":  "bc5f54698be8b95f6f1e8bb6e3247f7addab51b0b7a87a0f865fd833a18662e4"
+    },
+    {
+        "path":  "lib/owlcarousel/assets/owl.theme.green.min.css",
+        "bytes":  941,
+        "sha256":  "778332fe5e0cf4757221c6fe3431b6e5d6d96426636ceca3447062c96cae5d28"
+    },
+    {
+        "path":  "lib/owlcarousel/assets/owl.video.play.png",
+        "bytes":  4976,
+        "sha256":  "0436045686fddf10ccbbe2568e0cbffb457e7de7d43d1115c0056e81e97149ff"
+    },
+    {
+        "path":  "lib/owlcarousel/LICENSE",
+        "bytes":  1113,
+        "sha256":  "f7667e4f9f18659246bfcff02ba3a391c1b29b8478807b39c8699f6717390335"
+    },
+    {
+        "path":  "lib/owlcarousel/owl.carousel.js",
+        "bytes":  88643,
+        "sha256":  "2f0b434eae705d0e78d158abdad3a3555f3e69048104a541ba209775e48f86a4"
+    },
+    {
+        "path":  "lib/owlcarousel/owl.carousel.min.js",
+        "bytes":  42772,
+        "sha256":  "b5757aa153f991c82c949e638c56b4913042196240f3a41cec5a40c3366d1bdd"
+    },
+    {
+        "path":  "lib/waypoints/waypoints.min.js",
+        "bytes":  9034,
+        "sha256":  "c86e183995d42d069cdf501e7605562c081cd7aac3b779abe3f69af717d4dd47"
+    },
+    {
+        "path":  "lip-type-flanges.html",
+        "bytes":  24063,
+        "sha256":  "2a5605c3708d47560fed33ad3b12f2e8bada217c5c990662cedda58c4f51cb76"
+    },
+    {
+        "path":  "long-weld-neck-flanges.html",
+        "bytes":  22921,
+        "sha256":  "ac8badebff25fe0cd997ec85f9d632088146b4abec1d2ed12fbe9669ad2ebe14"
+    },
+    {
+        "path":  "loose-flanges.html",
+        "bytes":  23884,
+        "sha256":  "eb560e2f46966719981cc9ae717c6b84130072be92b394e47f9348f5e55d178a"
+    },
+    {
+        "path":  "machinical-composition.html",
+        "bytes":  30622,
+        "sha256":  "cb82ce42cd997c95468be49ea9656c8c8062dd9b384fc6f3f8089670b8d984be"
+    },
+    {
+        "path":  "mail/contact.js",
+        "bytes":  2663,
+        "sha256":  "0178db0d884af5a8f55e959ed1c8b32789ceff761a12b085405c8109af30897f"
+    },
+    {
+        "path":  "mail/contact.php",
+        "bytes":  846,
+        "sha256":  "95da21013fe3972ef894df44410f506506f55b95e0570c0f036fee6d68b256c4"
+    },
+    {
+        "path":  "mail/jqBootstrapValidation.min.js",
+        "bytes":  14877,
+        "sha256":  "3ed5709853b1a56ca133d9ae16d04acd65f91081cc076c9c4cb29b63a1bc42b4"
+    },
+    {
+        "path":  "male-and-female-flanges.html",
+        "bytes":  20514,
+        "sha256":  "a49d64fc20b72f5d0f6ca038826bde78f7f448f4643aa589138c2b9e2ebcc96f"
+    },
+    {
+        "path":  "monel-flanges.html",
+        "bytes":  18968,
+        "sha256":  "3d788a384aa6aa2ab67e0a59f42554e89b87584f3ca3999f3d9762b2fe8119ce"
+    },
+    {
+        "path":  "mss-sp-44-flanges.html",
+        "bytes":  20483,
+        "sha256":  "e1ddab8df78d12a8e6ddcd6d58d67aba33594535bc222732260577b5bebe79dd"
+    },
+    {
+        "path":  "nickel-flanges.html",
+        "bytes":  19537,
+        "sha256":  "7521fa7f2bd160c502e9b85842db490866f3fc149a7178fc3192807d96173cb1"
+    },
+    {
+        "path":  "nipo-flanges.html",
+        "bytes":  23712,
+        "sha256":  "b28a6dc408d58fa82667102ed3b7caf67aeda02d721a8544edddd425c3ad9688"
+    },
+    {
+        "path":  "orifice-flanges.html",
+        "bytes":  22775,
+        "sha256":  "7e7c5f54f191d03a9541b0a0d28c999640c5e7912db500c60e0aac013a337284"
+    },
+    {
+        "path":  "pipe-dimension.html",
+        "bytes":  43788,
+        "sha256":  "752bb07741006fa034ebc0a3cfd51912f2298da8930641db68873da9230fc5fe"
+    },
+    {
+        "path":  "pipes\u0026tubes.html",
+        "bytes":  46964,
+        "sha256":  "85b2d574e81df386f972b8e517daff9b3ddfa8d2cec2a28fe92a71e3fc4f5fdc"
+    },
+    {
+        "path":  "plate-flanges.html",
+        "bytes":  23956,
+        "sha256":  "66499813fbb51d9f74f1e0d1a582dc0130c94bd493ab8782cdc2f046a0433bd2"
+    },
+    {
+        "path":  "puddle-flanges.html",
+        "bytes":  24140,
+        "sha256":  "3eb1f478684b3e29840a4907d056a318b023c286040a020cfa96f6b750771b9d"
+    },
+    {
+        "path":  "raised-face-flanges.html",
+        "bytes":  20651,
+        "sha256":  "c10cfd1d34dbe29819e3cd375b8e765c9849c19deb077d3ccbf0e84f64b70377"
+    },
+    {
+        "path":  "reducing-flanges.html",
+        "bytes":  23777,
+        "sha256":  "93c7cdc77e97b4744942a9e900257ab11a9673aa88988adbbbbe0dd3781dd8dd"
+    },
+    {
+        "path":  "ring-spacers.html",
+        "bytes":  24048,
+        "sha256":  "2fd63259579c22b75fc1a993d4463f1b2093401133facb5e02d5d6963edddf6b"
+    },
+    {
+        "path":  "round-bars.html",
+        "bytes":  35793,
+        "sha256":  "36422ac94f95255376ae6ec80a0c27cd8f6019675a2c2561e0ecb45b32c6f1d2"
+    },
+    {
+        "path":  "rtj-flanges.html",
+        "bytes":  20750,
+        "sha256":  "bcaa4cb96c0a4e29967d3ab011bdb215acd49db9f1e110ded9042bf92351f252"
+    },
+    {
+        "path":  "sans-1123-flanges.html",
+        "bytes":  20585,
+        "sha256":  "47ab5cc3800615f386ec439bb0b25ad221b5f12da88b497b653ee64276e3a022"
+    },
+    {
+        "path":  "service.html",
+        "bytes":  18706,
+        "sha256":  "a026e509a481940d6b2cf7ac1624480afb304299980d1472ee1a69680b990704"
+    },
+    {
+        "path":  "sheets\u0026plates.html",
+        "bytes":  51194,
+        "sha256":  "bcd5ad993386afc0bbc6212f317a13d40f710dc30e40fbb0374872eb12344948"
+    },
+    {
+        "path":  "sitemap.xml",
+        "bytes":  5891,
+        "sha256":  "49588e5ef121a9909e075abe769559ba14b0fa934c28f7ee2a129a39ca40308e"
+    },
+    {
+        "path":  "slip-on-flanges.html",
+        "bytes":  22630,
+        "sha256":  "c5956ad4b8822f44071aa70a7226cdb8dfaee80ce386b9aa68a38f71cc8632cf"
+    },
+    {
+        "path":  "smo-254-flanges.html",
+        "bytes":  19311,
+        "sha256":  "d09abd101b6161c4c7d109832ebec636796d46745560d52c0032e1082033bfb8"
+    },
+    {
+        "path":  "socket-weld-flanges.html",
+        "bytes":  22674,
+        "sha256":  "ea5973d130c704b6e0e3d1ce26b76512a080b2db47f66bff2334e390faa10033"
+    },
+    {
+        "path":  "spade-flanges.html",
+        "bytes":  24065,
+        "sha256":  "9babc889a20e852896e3fcffec84c8b6c6d500bd85475559a17b1a2ce0f8e032"
+    },
+    {
+        "path":  "spectacle-blind-flanges.html",
+        "bytes":  23978,
+        "sha256":  "7c1d7e6b6467a930a3f21be973e239b8e2e9e5d6c77045c041b75e4fbbdfde5a"
+    },
+    {
+        "path":  "square-flanges.html",
+        "bytes":  23888,
+        "sha256":  "b26cd96b5419dd7a1dfaafa3b72641e06106a17f5c68d49cb337ac9e16bc78e7"
+    },
+    {
+        "path":  "stainless-steel-flanges.html",
+        "bytes":  20194,
+        "sha256":  "56802cb91fd003a4387bde792aaaadaec587559146e979bf7f84bb14b893d105"
+    },
+    {
+        "path":  "super-duplex-steel-flanges.html",
+        "bytes":  19273,
+        "sha256":  "809aba93a8cedc530fcf6248b0a8b7cc67251b79d36fffec2f48f94b075de1c2"
+    },
+    {
+        "path":  "threaded-cross.html",
+        "bytes":  18416,
+        "sha256":  "9b2d344c87e983d0deda0c901a8399157cee042e12e215241facd1d906b728d6"
+    },
+    {
+        "path":  "threaded-elbow.html",
+        "bytes":  18621,
+        "sha256":  "a727e15d971ec07cae81c48f62c36c74dc291b6a982ff0fc98382c125347b21a"
+    },
+    {
+        "path":  "threaded-end-cap.html",
+        "bytes":  18392,
+        "sha256":  "2b846e324e0449eda1022407f5df7d7aeb652fa42e341c86dffd6b4d348a9508"
+    },
+    {
+        "path":  "threaded-equal-tee.html",
+        "bytes":  18443,
+        "sha256":  "bd9428f59d69fff7d5ba44313281e04af085e784ac1ff752a9c07139f3c89e65"
+    },
+    {
+        "path":  "threaded-fittings.html",
+        "bytes":  18619,
+        "sha256":  "3d2d67a0ef78ee82edd87d9f5d837231a3bb6b8d43c960f5e8eee6fefc2b7694"
+    },
+    {
+        "path":  "threaded-flanges.html",
+        "bytes":  22711,
+        "sha256":  "e966399b5cec8238f3e3698dbcac10238ca25a5c943d1eaabfa2e380de7e6bf8"
+    },
+    {
+        "path":  "threaded-full-coupling.html",
+        "bytes":  18457,
+        "sha256":  "e594d24b9fab9af8904b1baf936c39ee34f7976f3f93b93f1a0d532a05d1f0fb"
+    },
+    {
+        "path":  "threaded-half-coupling.html",
+        "bytes":  18435,
+        "sha256":  "2974c38d6f78ce697b0e8dda47f6f7c2b25ba3cbabb2448eb68242031c487bdd"
+    },
+    {
+        "path":  "threaded-reducing-tee.html",
+        "bytes":  18459,
+        "sha256":  "1a5cdeafd5e38669547d2c5f0cac162a813e1240b844d853bd79891a25e55a17"
+    },
+    {
+        "path":  "threaded-union.html",
+        "bytes":  18452,
+        "sha256":  "df4fd6b34502620e9ac4a4a1461ccc7daa924eab8055164b87b62fc88ab51952"
+    },
+    {
+        "path":  "titanium-flanges.html",
+        "bytes":  19096,
+        "sha256":  "8c548afcbc7abfff7fec72f698f6a205c11a816dcb452499cfe90be155e4b1f2"
+    },
+    {
+        "path":  "tongue-and-groove-flanges.html",
+        "bytes":  20547,
+        "sha256":  "e63585a5681d7e48d02212e5b225c23e8ba5ee5a75ba98eb781cae9a080288dd"
+    },
+    {
+        "path":  "tube-fittings.html",
+        "bytes":  21776,
+        "sha256":  "7bcc9c2c4f59b085b008a91c0acf6d52702df6797b493114559042b7de9f4e48"
+    },
+    {
+        "path":  "uni-flanges.html",
+        "bytes":  19896,
+        "sha256":  "b398943aa566875729aef1937078800cd5714304964b91a04b346b3d74490d93"
+    },
+    {
+        "path":  "Valtron Forge_0222.pdf",
+        "bytes":  3295233,
+        "sha256":  "6029e1b8630ff0e69d4201c9135390b96d2a4284724c6a00d3d67894b1b5a862"
+    },
+    {
+        "path":  "video/banner-forging.mp4",
+        "bytes":  8709438,
+        "sha256":  "3ee3fe0841dcdac6dec124a3bdc269f085dc066613f83e32bf959d7f1d8f7930"
+    },
+    {
+        "path":  "video/banner-forging.webm",
+        "bytes":  6753453,
+        "sha256":  "659cee7db5470f5fe0d09237db6c453e3a5b2e60b50517dea9162b17c1a7bda4"
+    },
+    {
+        "path":  "video/banner-new.mp4",
+        "bytes":  13719795,
+        "sha256":  "27e221e1f439917f04b1eaed1a1d4e243d8feddb04b800942cccef5b4db350f8"
+    },
+    {
+        "path":  "video/banner-new.webm",
+        "bytes":  26245503,
+        "sha256":  "d990fb4d30bd70428d83cf75b41f47216f81c6b49fc9717f65022463f05c6ded"
+    },
+    {
+        "path":  "video/banner-video-3.mp4",
+        "bytes":  2383446,
+        "sha256":  "bf705ec81c2613f004bc110ee994f823cdb2664a054ad1b2feda8ebe0185dd2c"
+    },
+    {
+        "path":  "video/banner-video-3.webm",
+        "bytes":  4635203,
+        "sha256":  "88be6d995be7dd3d65a0d43be8e06cc43674949e210d46784aa6de5dfeabf0b8"
+    },
+    {
+        "path":  "weight-calculator.html",
+        "bytes":  52051,
+        "sha256":  "e4aeaf81796d932a42f3d87f0d5638dc054a91a946eb8c7d62643612dbe23358"
+    },
+    {
+        "path":  "welding-wire.html",
+        "bytes":  27627,
+        "sha256":  "91f032cb0e32d4899b94df9f0ce9b3bbd002813a8ad0e8d8cdcf89afc6a4114e"
+    },
+    {
+        "path":  "weld-neck-flanges.html",
+        "bytes":  22850,
+        "sha256":  "88716b128c0d3158a727a8fefd14b6ba6473660b77e4a52b723f530b52abbb7b"
+    },
+    {
+        "path":  "weldo-flanges.html",
+        "bytes":  23736,
+        "sha256":  "4b70a3276166d440d08b53c36aa8cda0b85868221621fe71be2a256962d32484"
+    },
+    {
+        "path":  "wire.html",
+        "bytes":  25285,
+        "sha256":  "6b86a8187821d8899e6ca94e64f6f7dc2eec83c823a112a007198ffe6b6e27ff"
+    }
+]

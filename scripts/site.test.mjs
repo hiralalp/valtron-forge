@@ -89,6 +89,30 @@ test('shared discovery contains only the three retained product categories', () 
     assert.match(markup, /href="flanges.html" aria-current="page"/);
 });
 
+test('social media links appear once in every shared footer with accessible external links', async () => {
+    const destinations = [
+        'https://www.instagram.com/valtronforge?stkn=NnFocWJ6bXNzOXI4',
+        'https://www.facebook.com/share/18cS7qWfkg/',
+        'https://youtube.com/@valtronforgefittings?si=ab0Yc6_223he0u_p',
+        'https://www.linkedin.com/in/jitendra-bishnoi-a11a6236b?utm_source=share_via&utm_content=profile&utm_medium=member_android'
+    ];
+    for (const path of (await readdir('.')).filter(path => path.endsWith('.html'))) {
+        const document = load(await readFile(path, 'utf8'));
+        assert.equal(document('.vf-footer .vf-social-links').length, 1, path);
+        assert.equal(document('.vf-social-links').attr('aria-label'), 'Social media', path);
+        const links = document('.vf-social-links a').toArray();
+        assert.deepEqual(links.map(node => document(node).attr('href')), destinations, path);
+        for (const node of links) {
+            const link = document(node);
+            assert.equal(link.attr('target'), '_blank', path);
+            assert.equal(link.attr('rel'), 'noopener noreferrer', path);
+            assert.match(link.attr('aria-label'), /opens in a new tab/, path);
+            assert.ok(link.attr('title'), path);
+            assert.equal(link.find('.fab[aria-hidden="true"]').length, 1, path);
+        }
+    }
+});
+
 test('quote links preserve the product and category without HTML injection', () => {
     const url = new URL(quoteLink('Caps & Plugs', 'Forged Fittings'), 'https://www.valtronforge.com');
     assert.equal(url.searchParams.get('product'), 'Caps & Plugs');
